@@ -35,12 +35,17 @@ We will use the following software during training, which will need to be instal
 ## Roadmap
  - Week 1 - Intro to Coding I
  - Week 2 - Intro to Coding II
- - Week 3 - Java/SQL - Project 0
- - Week 4 - UI/Servlets - Project 0/Project 1
- - Week 5 - Flex Week! (review, and buffer) - Project 1
- - Week 6 - DevOps/Hibernate - Project 1
- - Week 7 - Angular - Project 1
- - Week 8 - Spring - Project 2
- - Week 9 - Microservices - Project 2
+ - Week 3 - Java/SQL
+ - Week 4 - UI/Servlets
+ - Week 5 - Flex Week! (review, and buffer)
+ - Week 6 - DevOps/Hibernate
+ - Week 7 - Angular
+ - Week 8 - Spring
+ - Week 9 - Microservices
  - Week 10 - 12 - Project 3
 
+## Projects
+ - Project 0 - 2021-09-22 - 2021-10-06
+ - Project 1 - 2021-10-06 - 2021-10-29?
+ - Project 2 - 2021-10-29? - 2021-11-12?
+ - Project 3 - 2021-11-12? - 2021-12-02?
