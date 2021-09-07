@@ -33,14 +33,14 @@ We will use the following software during training, which will need to be instal
  - AspectJ
 
 ## Roadmap
- - [Week 1]()
- - [Week 2]()
- - [Week 3]()
- - [Week 4]()
- - [Week 5]()
- - [Week 6]()
- - [Week 7]()
- - [Week 8]()
- - [Week 9]()
- - [Week 10 - 12]()
+ - [Week 1]() - Intro to Coding I
+ - [Week 2]() - Intro to Coding II
+ - [Week 3]() - Java/SQL - Project 0
+ - [Week 4]() - UI/Servlets - Project 0/Project 1
+ - [Week 5]() - Flex Week! (review, and buffer) - Project 1
+ - [Week 6]() - DevOps/Hibernate - Project 1
+ - [Week 7]() - Angular - Project 1
+ - [Week 8]() - Spring - Project 2
+ - [Week 9]() - Microservices - Project 2
+ - [Week 10 - 12]() - Project 3
 
