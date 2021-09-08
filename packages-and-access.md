@@ -44,8 +44,8 @@ Note that "default" is also sometimes referred to "package-private". This is the
 
 It is important to remember these access modifiers and what they do. Keep in mind:
  - Private is the most restrictive and private members can only be accessed from within the same class. 
- - Public is the least restrictive and private members can be accessed anywhere.
- - default or package-private members can only be accessed from classes within the package.
+ - Public is the least restrictive and public members can be accessed anywhere.
+ - Default or package-private members can only be accessed from classes within the package.
  - Protected is like default but members can also be accessed from sub-classes even if they are defined in another package.
 
 
