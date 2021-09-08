@@ -3,6 +3,30 @@
 ## Classes & Objects
 A class is the logical bundling of data and behaviors (fields and methods) into a single logical unit. Often, however, we will deal with objects instead of classes. Objects and classes are tightly related concepts, but we should understand the difference. **Objects are instances of classes.** Classes are a sort of blueprint for objects. We often take a class and "**instantiate**" an objcet from it. This just means we create an object using the class as a blueprint. Sometimes a class can exist on its own, not as an object instance. This is where the `static` keyword comes in. 
 
+## Methods
+When we bundle data and behaviors into classes, the behavior parts are called **methods**. A method is part of a class and can be invoked to preform it's behavior. A method has several parts: modifiers, return type, name, and parameter list make up the method's **signature**. For example, here is the main method signature in Java:
+```
+public static void main(String[] args);
+```
+`public` is an **access-modifier**, `static` is another modifier (bot not an access modifier). The return type is `void` which means this methos returns nothing. The method is named `main` and it's parameter list includes an array of `String` objecs called `args`.
+  
+The last thing a method needs is an implementation, or the code that actually does stuff. Here is an example of a public static method with a void return type which takes in a String object and prints it to the console:  
+```
+public class MyClass {
+    public static void printText(String str) {
+        System.out.pritln(str);
+    }
+}
+```
+  
+Methods are invoked via a class or object by using the dot operator (sometimes called the de-reference operator). We use the class or object name, followed by the dot operator, and then the method name. We also include the required parameters when invoking a method. Below we will invoke the `printText` method:
+```
+String sentence = "This is a string!";
+MyClass.printText(sentence);
+//This should output "This is a string!" to the console.
+```
+Note that this method is invoked using the class name, there is no object instantiated from that class in the example. This can be done because the method is `static`.
+
 ## Static Keyword
 `Static` denotes a method, or field to be part of the class itself, rather than part of an object instantiated from the class. This means that all objects of that class share a single method or field. Consider the class below:
   
