@@ -83,7 +83,7 @@ Java is single-inheritance, but does have a way to inherit behavior from multipl
 Some of the most common examples to demonstrate the concept of polymorphism are overloading and overriding.
   
 ### Overriding
-Method overriding is the practice of modifying a method that a child class inherits from a parent. This is done by implementing the method with the exact same signature in the child class. 
+Method overriding is the practice of modifying a method that a child class inherits from a parent. This is done by implementing the method with the exact same signature in the child class, but writing a different implementation.
 
 ```
 //Animal.java
