@@ -45,6 +45,13 @@ Lastly, we can modify some classes to be static as well. We can't make a top-mos
 ## Return Type
 Many methods return some data upon completion. Almost all methods must specify a return type. The only methods that do not are constructors. A method which does not return any data must have the `void` return type. When a method is invoked, it is eventually resolved as a returned value.
   
+## Constructors
+Constructors are a special type of method used to instantiate an object of a class. A constructor is called with the `new` keyword and may optionally include a parameter list. Constructors have **no return type**, not even void. Typically constructors are `public` access so that they can be instantiated from anywhere. Constructors must have the same name as the class, which means it breaks the typical naming convention of camelCase method and PascalCase class names. A typical constructor has a sgnature like this:
+```
+public MyClass();
+```
+The implementation of a constructor typically sets up everything a class object needs to work.
+  
 ## Inheritance
 In Java, a class inherits data and behavior from a parent class using the `extends` keyword. A class can only extend one other class. Java is a language that only supports "single-inheritance". In fact every class (except one) in Java inherits from exactly one parent class. If a class is not specified with `extends` then it implicitly extends the `Object` class. The only class which does not have a parent is the `Object` class itself. **`Object` is the class from which all other Java classes are derived.**
   
