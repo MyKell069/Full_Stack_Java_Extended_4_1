@@ -20,4 +20,4 @@ Inheritance is the ability of an entity acquiring some or all of the data and be
 The benefit of inheritance is mainly re-use of code. Rather than re-invent the wheel every time, we can re-use an existing class and alter some of it's behavior to suit a new purpose.
   
 ## Polymorphism
-Polymorphism is the most difficult pillar to conceptualize. By definition, polymorphism means "taking on many forms". In the realm of programming, it describes how objects can behave differently in different contexts. The most common examples of polymorphism in Java are method [overloading and overriding]().
+Polymorphism is the most difficult pillar to conceptualize. By definition, polymorphism means "taking on many forms". In the realm of programming, it describes how objects can behave differently in different contexts. The most common examples of polymorphism in Java are method [overloading and overriding](https://github.com/LiquidLessonPlans/Full_Stack_Java_Extended_4_1/blob/main/java-fundamentals.md#overriding--overloading).
