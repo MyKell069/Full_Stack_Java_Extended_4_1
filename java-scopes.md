@@ -1,4 +1,4 @@
-#Scopes in Java
+# Scopes in Java
 There is a common concept in programming called "scope". This refers to when and where and when a reference is valid. Where a reference is defined in your code controls when at runtime that reference is valid. While the reference is valid it is considered "in scope". Once it goes "out of scope" it is no longer valid. 
 
 When writing code modern IDEs will double check everything as you write, including scope. If you get an error or warning that some reference doesn't exist, this may indicate the reference is not in scope.
