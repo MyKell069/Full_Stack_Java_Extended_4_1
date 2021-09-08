@@ -1,5 +1,27 @@
 # Java Fundamentals
   
+## Comments
+Often when writing code we want to include information that the compiler and JVM should ignore. These are called comments. In Java there are several ways to write comments:
+```
+//This is a single line comment, text is considered a comment until the next line.
+
+/*
+This is a
+multi-line comment
+and can go on as long as we want
+*/
+```
+
+Note that these comments do not need to be on their own line. For instance:
+```
+//MyClass.java
+public class MyClass {
+   public MyClass(/*ADD PARAMETER LIST LATER*/) { //constructor
+       //ADD CONSTRUCTOR IMPLEMENTATION LATER
+   }
+}
+```
+  
 ## Classes & Objects
 A class is the logical bundling of data and behaviors (fields and methods) into a single logical unit. Often, however, we will deal with objects instead of classes. Objects and classes are tightly related concepts, but we should understand the difference. **Objects are instances of classes.** Classes are a sort of blueprint for objects. We often take a class and "**instantiate**" an objcet from it. This just means we create an object using the class as a blueprint. Sometimes a class can exist on its own, not as an object instance. This is where the `static` keyword comes in. 
 
@@ -95,3 +117,5 @@ public long sum(long a, long b) {
 
 ```
 Note that the return type changes between these two methods, however that alone is not enough for the compiler to be able to choose one. In order to overload a method we must change the parameter list. 
+
+
