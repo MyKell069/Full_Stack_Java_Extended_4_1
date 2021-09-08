@@ -41,8 +41,10 @@ That ststic int x will be shared among all instances of this class. If we create
 Likewise we can classify methods as static as well. Static methods can be invoked on a class itself, and do not have access to non-static fields and methods. Consider a class with a non-static field, y. If you never instantiate an object from the class, y never exists. If you can invoke a static method without ever instantiating an object, and that method tries to access the field y, it would throw an error. Static methods can be invoked on a class object as well, and can be invoked on sub-classes as though inherited. 
   
 Lastly, we can modify some classes to be static as well. We can't make a top-most class static (every .java file must contain one top-most class which the file is named after) but we can "nest" a class inside another. These nested classes can be made static. Static nested classes can only access static members of the outer class. Nested classes can access even private members of the outer class.
-
-
+  
+## Return Type
+Many methods return some data upon completion. Almost all methods must specify a return type. The only methods that do not are constructors. A method which does not return any data must have the `void` return type. 
+  
 ## Inheritance
 In Java, a class inherits data and behavior from a parent class using the `extends` keyword. A class can only extend one other class. Java is a language that only supports "single-inheritance". In fact every class (except one) in Java inherits from exactly one parent class. If a class is not specified with `extends` then it implicitly extends the `Object` class. The only class which does not have a parent is the `Object` class itself. **`Object` is the class from which all other Java classes are derived.**
   
