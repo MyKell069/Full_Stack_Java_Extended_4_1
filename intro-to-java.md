@@ -4,7 +4,7 @@ Java is a high-level, class-based, object-oriented, programming language that is
  - **class based** - Everything written is inside a class, inheritance based on class
  - **object oriented** - Bundle data and behavior into a single logical unit, the class. (Encapsulation)
 
-Java is a general-purpose programming language intended to let developers ***write once, run anywhere***. Compiled Java code can run on any **Java Virtual Machine (JVM)** regardless of the underlying hardware.  
+Java is a general-purpose programming language intended to let developers ***write once, run anywhere***. Compiled Java code can run on any **Java Virtual Machine (JVM)** regardless of the hardware and software environment.  
   
 Java is a C derivative, which means its syntax is similar to that of C/C++. While Java has fewer low-level features such as direct memory access, it has high-level features C and C++ lack, such as reflection.  
   
