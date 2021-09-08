@@ -25,3 +25,8 @@ Day 1 Hackerrank Activity: [Welcome to Java!](https://www.hackerrank.com/challen
 ### HTML & JavaScript
  - Intro to HTML
  - Intro to JavaScript
+
+### Web Services
+ - Client-Server Architecture
+ - HTTP
+ - Servlets
