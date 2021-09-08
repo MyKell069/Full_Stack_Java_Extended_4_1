@@ -11,6 +11,7 @@ Day 1 Hackerrank Activity: [Welcome to Java!](https://www.hackerrank.com/challen
 - [Java Fundamentals](https://github.com/LiquidLessonPlans/Full_Stack_Java_Extended_4_1/blob/main/java-fundamentals.md)
 - [Packages & Access](https://github.com/LiquidLessonPlans/Full_Stack_Java_Extended_4_1/blob/main/packages-and-access.md)
 - [Scopes in Java](https://github.com/LiquidLessonPlans/Full_Stack_Java_Extended_4_1/blob/main/java-scopes.md)
+- [Control Flow](https://github.com/LiquidLessonPlans/Full_Stack_Java_Extended_4_1/blob/main/java-control-flow.md)
 
 
 ### Databases & SQL
