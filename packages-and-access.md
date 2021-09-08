@@ -27,13 +27,28 @@ public class MyOtherClass {
 ```
   
 ## Access modifiers 
+The following table lists the Java access modifiers from least to most restrictive. These modifiers are used to control what has access to our class members and are fundemental to the concepts of abstraction and encapsulation.
+ - Class - The member can be accessed from within the same class.
+ - Package - The member can be accessed from within another class in the same package.
+ - Sub-class - The member can be accessed from within a sub-class defined in another package.
+ - Global = The member can be accessed from anywhere.
 
 | **Modifier** | **Class** | **Package** | **Sub-class** | **Global** |
 | ------------ | --------- | ----------- | ------------- | ---------- |
 | `public` | Y | Y | Y | Y |
 | `protected` | Y | Y | Y | N |
 | ***default*** | Y | Y | N | N |
-| private | Y | N | N | N |
-
+| `private` | Y | N | N | N |
   
+Note that "default" is also sometimes referred to "package-private". This is the level of access given to members where another level of access is not specified.
+
+It is important to remember these access modifiers and what they do. Keep in mind:
+ - Private is the most restrictive and private members can only be accessed from within the same class. 
+ - Public is the least restrictive and private members can be accessed anywhere.
+ - default or package-private members can only be accessed from classes within the package.
+ - Protected is like default but members can also be accessed from sub-classes even if they are defined in another package.
+
+
+
+
   
