@@ -13,7 +13,7 @@
  - [Version Control with Git & GitHub](./git-github.md)
 
 ### Databases & SQL
- - Relational Database Management Systems (RDBMS)
+ - [Relational Database Management Systems (RDBMS)](./intro-to-rdbms.md)
  - Intro to SQL
    - DDL
    - DQL
