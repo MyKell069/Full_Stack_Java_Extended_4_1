@@ -26,5 +26,5 @@
 
 ### Web Services
  - Client-Server Architecture
- - HTTP
+ - [Intro to HTTP](./intro-to-http.md)
  - Servlets
