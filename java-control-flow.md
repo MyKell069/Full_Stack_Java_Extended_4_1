@@ -95,4 +95,24 @@ For each Integer object in a collection of Integers, take that Integer and doubl
 
 ## Jumps
 ### Break
+We saw break earlier, commonly used in switch statements to avoid fall-through execution. Break can also be used to break out of any control statement. Break will cause execution inside the block to stop and execution to continue after the block ends.
+```
+while(true) {
+    x++;
+    if(x > 5) {
+        break;
+    }
+}
+```
+This example is silly, but shows the use of break to conditionally break out of a while loop.
+
 ### Continue
+Continue is similar to break in that it will cause the current execution inside a loop to cease, however instead of breaking out of the loop, it continues with the next iteration.
+```
+for(i = 0; i < 5; i++) {
+    System.out.println("Hello");
+    continue;
+    System.out.println("Goodbye");
+}
+```
+This example will print "Hello" 5 times, and will never print "Goodbye". Note that the use of continue still increments i normally.
