@@ -14,7 +14,7 @@ Day 1 Hackerrank Activity: [Welcome to Java!](https://www.hackerrank.com/challen
 - [Control Flow](https://github.com/LiquidLessonPlans/Full_Stack_Java_Extended_4_1/blob/main/java-control-flow.md)
 
 ### Version Control
- - [Version Control with Git & GitHub]()
+ - [Version Control with Git & GitHub](https://github.com/LiquidLessonPlans/Full_Stack_Java_Extended_4_1/blob/main/git-github.md)
 
 ### Databases & SQL
  - Relational Database Management Systems (RDBMS)
