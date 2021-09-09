@@ -4,8 +4,6 @@ HTTP, or HyperText Transfer Protocol, is the protocol we use to browse the web. 
   
 ## HTTP Messages
 ### HTTP Request
-<div align="center"> <img src="./../../images/http-request-image.png"> </div>
-  
 Each HTTP request is composed of:
  - HTTP Verb - the HTTP method to execute
  - URI - indicates the endpoint used to access the resource
@@ -13,14 +11,17 @@ Each HTTP request is composed of:
  - Request Header - Metadata (info) about the request represented as key-value pairs
  - Request Body - message content (resource representation in REST)
 
-### HTTP Response
-<div align="center"> <img src="./../../images/http-response-image.png"> </div>
+<div align="center"> <img src="./../../images/http-request-image.png"> </div>
   
+  
+### HTTP Response  
 Each HTTP response is composed of:
  - HTTP Response Code - code indicating the status of the request
  - HTTP Version - in order to be certain of communication protocol
  - Response Header - Metadata (info) about the response represented as key-value pairs
  - Response Body - message content (resource representation in REST)
+
+<div align="center"> <img src="./../../images/http-response-image.png"> </div>
   
   
 ## HTTP Verbs
