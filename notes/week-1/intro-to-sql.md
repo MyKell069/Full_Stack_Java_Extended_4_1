@@ -4,7 +4,7 @@ SQL, or Structured Query Language, is a scripting language used to manipulate re
 *SQL is often referred to as "sequel". Be cool, say sequel.*
   
 # SQL Flavors
-SQL is a standard described originally by Sun Microsystems, which is now owned by Oracle. The main SQL standard is implemented slightly differently by a number of different groups including Oracle, Microsoft, 
+SQL is a standard described originally by Sun Microsystems, which is now owned by Oracle. The main SQL standard is implemented slightly differently by a number of different groups including Oracle, and Microsoft to name a few. These flavors of SQL are each a superset of the SQL standard with added features and slight syntactical differences. Once we know one it isn't difficult to transition to another. The flavor we will be working with in this training is MariaDB, which is an open source fork of MySQL. The syntax is very nearly the same as MySQL (from Oracle).
 
 ## SQL Sublanguages
 The types of SQL commands used to query and manipulate data within a database can be categorized into 5 sub-languages (or dialects). We will be primarily interested in the first 3 seen below, DDL, DML, and DQL. 
