@@ -69,5 +69,5 @@ Note:
 
 <BR><BR>
 ## See Also:
-[JSONLint - The JSON Validator](https://jsonlint.com/)
-[JSON Vocabulary](https://json-schema.org/draft/2020-12/json-schema-validation.html)
+ - [JSONLint - The JSON Validator](https://jsonlint.com/)
+ - [JSON Vocabulary](https://json-schema.org/draft/2020-12/json-schema-validation.html)
