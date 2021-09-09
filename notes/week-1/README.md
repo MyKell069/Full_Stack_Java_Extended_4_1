@@ -21,7 +21,7 @@
  - [JDBC](./intro-to-jdbc.md)
 
 ### HTML & JavaScript
- - Intro to HTML
+ - [Intro to HTML](./intro-to-html.md)
  - Intro to JavaScript
 
 ### Web Services
