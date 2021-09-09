@@ -24,4 +24,16 @@ Some examples of DDL keywords include:
 Note that `DELETE` and `DROP` are different keywords with different meanings. One is used to drop objects like tables. The other is used to remove data from tables. These statements commonly include clauses that filter data, such as `WHERE`.
 
 ## SQL Examples
+Below will be some examples that show the use of the basic SQL we've covered thus far:
 
+#### Create a table
+```sql
+CREATE TABLE users (
+  user_id INT NOT NULL,
+  first_name VARCHAR(40),
+  last_name VARCHAR(40),
+  username VARCHAR(40),
+  email VARCHAR(200),
+  CONSTRAINT users_pk PRIMARY KEY (user_id)
+);
+```
