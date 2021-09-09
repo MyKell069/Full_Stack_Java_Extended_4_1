@@ -6,7 +6,11 @@
 ### Our First App
 [To-Do App](./to-do-app/)
 
-### Simple Samples
-[Sample Repositories](https://github.com/simple-samples)
+### Sample Repos
+[Simple Samples](https://github.com/simple-samples)
 
-### Project 0
+### Projects
+ - [Project 0]()
+ - [Project 1]()
+ - [Project 2]()
+ - [Project 3]()
