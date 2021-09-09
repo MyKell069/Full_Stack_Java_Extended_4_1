@@ -19,3 +19,44 @@ The types of SQL commands used to query and manipulate data within a database ca
     * `GRANT`, `REVOKE`
 5. **TCL (Transaction Control Language):** Statements used to commit and restore data through transaction.  Transactions group a set of tasks into a single execution unit.
     * `COMMIT`, `ROLLBACK`, `SAVEPOINT`
+
+## Data Types
+
+When defining the properties of an entity in the database (i.e. the columns), you must specify the data type to store. Common SQL datatypes include:
+
+#### Numeric
+- BIT
+- TINYINT
+- BIGINT
+- DECIMAL
+- NUMERIC
+- FLOAT
+- REAL
+
+#### Date/Time
+- DATE
+- TIMESTAMP
+- DATETIME
+- TIME
+- YEAR
+
+#### Character/String
+- CHAR
+- NCHAR
+- VARCHAR
+- NVARCHAR
+- NTEXT
+
+#### Binary
+- BINARY
+- VARBINARY
+- IMAGE
+
+#### Miscellaneous
+- CLOB
+- BLOB
+- XML
+- JSON
+
+Each database vendor may support their own data types, or not support some of the ones listed above. Refer to the specific vendor documentation for more information.
+
