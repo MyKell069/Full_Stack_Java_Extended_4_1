@@ -13,9 +13,8 @@ Day 1 Hackerrank Activity: [Welcome to Java!](https://www.hackerrank.com/challen
 - [Scopes in Java](https://github.com/LiquidLessonPlans/Full_Stack_Java_Extended_4_1/blob/main/java-scopes.md)
 - [Control Flow](https://github.com/LiquidLessonPlans/Full_Stack_Java_Extended_4_1/blob/main/java-control-flow.md)
 
-### Git & GitHub
- - [Version Control]()
- - [GitHub]()
+### Version Control
+ - [Version Control with Git & GitHub]()
 
 ### Databases & SQL
  - Relational Database Management Systems (RDBMS)
