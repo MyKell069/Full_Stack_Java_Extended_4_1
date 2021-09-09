@@ -72,6 +72,7 @@ The database URL is an address pointing to the database to be used, also known a
 
 | RDBMS | JDBC driver | URL format |
 | ----- | ----------- | ---------- |
+| MariaDB | org.mariadb.jdbc.Driver | jdbc:mariadb://hostname:port/databaseName?user=username&password=password |
 | MySQL | `com.mysql.jdbc.Driver` | jdbc:mysql://hostname/databaseName |
 | Oracle | `oracle.jdbc.driver.OracleDriver` | jdbc:oracle:thin:@hostname:portNumber:databaseName |
 | SQLServer | `com.microsoft.sqlserver.jdbc.SQLServerDriver` | jdbc:sqlserver://serverName:portNumber;property=value |
