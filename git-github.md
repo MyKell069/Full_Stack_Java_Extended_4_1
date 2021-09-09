@@ -153,13 +153,10 @@ $ git push
 
 The `git pull` command is used to fetch and download content from a remote repository and immediately update the local repository to match that content, **before** you push your changes.
 
-### References
-
-* [Git Cheat Sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
-* [Git Pro eBook](https://git-scm.com/book/en/v2)
 
 <BR><BR>See Also:
  - [Git Cheat Sheet](https://training.github.com/downloads/github-git-cheat-sheet/)
  - [Git Documentation](https://git-scm.com/docs)
+ - [Git Pro eBook](https://git-scm.com/book/en/v2)
   
 
