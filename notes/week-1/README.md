@@ -25,6 +25,7 @@
  - Intro to JavaScript
 
 ### Web Services
- - Client-Server Architecture
  - [Intro to HTTP](./intro-to-http.md)
+ - [Intro to Web Services]
+ - Client-Server Architecture
  - Servlets
