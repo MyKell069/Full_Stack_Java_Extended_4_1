@@ -27,7 +27,7 @@ You will be expected to complete the minimum viable product by the deadline and 
 
 
 ## Banking App User Stories
-These are user stories to describe the banking app. If you are not building the banking app for your project, you will need to discuss with your trainer to establish proper user-stories.
+These are user stories to describe the banking app. If you are not building the banking app for your project, you will need to discuss with your trainer to establish proper user stories.
 
 ### Minimum Viable Product
 * As a user, I can register for an account.
