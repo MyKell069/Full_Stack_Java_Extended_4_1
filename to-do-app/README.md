@@ -13,10 +13,10 @@ We want to practice the basic technologies we will touch upon in the first two w
 
 ## Features / User Stories
 ### Week 1 - Console App
-We want to be able to view a list of to-do items.
-We want to be able to mark to-do items complete.
-We want to be able to add to-do items.
-We want to include due dates on to-do items.
+We want to be able to view a list of to-do items.  
+We want to be able to mark to-do items complete.  
+We want to be able to add to-do items.  
+We want to include due dates on to-do items.  
 
 ### Week 2 - Client/Server with UI
-We want to refactor the app to be web-based instead of console-based.
+We want to refactor the app to be web-based instead of console-based.  
