@@ -6,15 +6,15 @@ Day 1 Hackerrank Activity: [Welcome to Java!](https://www.hackerrank.com/challen
 - [Curriculum](./notes/week-1/curriculum.md)
 
 ### Java & OOP
-- [Intro to Java](https://github.com/LiquidLessonPlans/Full_Stack_Java_Extended_4_1/blob/main/intro-to-java.md)
-- [Object Oriented Programming](https://github.com/LiquidLessonPlans/Full_Stack_Java_Extended_4_1/blob/main/object-oriented-programming.md)
-- [Java Fundamentals](https://github.com/LiquidLessonPlans/Full_Stack_Java_Extended_4_1/blob/main/java-fundamentals.md)
-- [Packages & Access](https://github.com/LiquidLessonPlans/Full_Stack_Java_Extended_4_1/blob/main/packages-and-access.md)
-- [Scopes in Java](https://github.com/LiquidLessonPlans/Full_Stack_Java_Extended_4_1/blob/main/java-scopes.md)
-- [Control Flow](https://github.com/LiquidLessonPlans/Full_Stack_Java_Extended_4_1/blob/main/java-control-flow.md)
+- [Intro to Java](./notes/week-1/intro-to-java.md)
+- [Object Oriented Programming](./notes/week-1/object-oriented-programming.md)
+- [Java Fundamentals](./notes/week-1/java-fundamentals.md)
+- [Packages & Access](./notes/week-1/packages-and-access.md)
+- [Scopes in Java](./notes/week-1/java-scopes.md)
+- [Control Flow](./notes/week-1/java-control-flow.md)
 
 ### Version Control
- - [Version Control with Git & GitHub](https://github.com/LiquidLessonPlans/Full_Stack_Java_Extended_4_1/blob/main/git-github.md)
+ - [Version Control with Git & GitHub](./notes/week-1/git-github.md)
 
 ### Databases & SQL
  - Relational Database Management Systems (RDBMS)
