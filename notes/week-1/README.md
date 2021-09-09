@@ -12,7 +12,7 @@
 ### Version Control
  - [Version Control with Git & GitHub](./git-github.md)
 
-### Databases & SQL - [SQL Assignment](./)
+### Databases & SQL - [SQL Assignment](./sql-assignment.sql)
  - [Relational Database Management Systems (RDBMS)](./intro-to-rdbms.md)
  - [Intro to SQL](./intro-to-sql.md)
  - [Schema](./defining-schema.md)
