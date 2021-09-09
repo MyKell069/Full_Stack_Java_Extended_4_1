@@ -1,5 +1,10 @@
 # SQL
 SQL, or Structured Query Language, is a scripting language used to manipulate relational databases, commonly referred to as SQL databases. In the strictest sense SQL instructs a relational database management system in a similar way to how Java instructs the compiler and JS instructs the interpreter.
+  
+***SQL is often referred to as "sequel". Be cool, say sequel.***
+  
+# SQL Flavors
+SQL is a standard described originally by Sun Microsystems, which is now owned by Oracle. The main SQL standard is implemented slightly differently by a number of different groups including Oracle, Microsoft, 
 
 ## SQL Sublanguages
 The types of SQL commands used to query and manipulate data within a database can be categorized into 5 sub-languages (or dialects). We will be primarily interested in the first 3 seen below, DDL, DML, and DQL. 
