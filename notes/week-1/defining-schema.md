@@ -1,4 +1,4 @@
-## Module - SQL Schema
+# SQL Schema
 
 This module covers schemas, constraints, multiplicity, and normalization in RDBMS systems.
 
