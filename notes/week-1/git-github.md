@@ -8,10 +8,6 @@ GitHub and GitLab, not to be confused with Git itself, are online services that 
 
 
 
-
-
-
-
 <div align="center"> <img src="./../../images/distributed-git.png" width="500"/></div>
 
 ## What is GitHub?
@@ -24,7 +20,7 @@ GitHub is a **Git repository hosting service**, but it adds many of its own feat
 
 ## Installing and Configuring Git
 
-Navigate to to this file for instructions on [installing Git](https://gitlab.com/revature_training/git-team/-/blob/master/modules/installation/git-windows-install.md)
+[Install Git](https://git-scm.com/downloads)
 
 Once you have successfully installed Git, you will need to configure it. The configuration values help us keep track of who is making what change within a project. 
 
