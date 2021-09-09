@@ -18,7 +18,7 @@
    - [DDL](./ddl-dql-dml.md#ddl)
    - [DQL](./ddl-dql-dml.md#dql)
    - [DML](./ddl-dql-dml.md#dml)
- - JDBC
+ - [JDBC](./intro-to-jdbc.md)
 
 ### HTML & JavaScript
  - Intro to HTML
