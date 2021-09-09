@@ -1,7 +1,7 @@
 # Full Stack Java Extended V4.1
 
 ### Full Stack Java Extended
-[Curriculum](./curriculum.md)
+[Curriculum](./curriculum.md)  
 [Our GitHub Orginization](https://github.com/210913-java-full-stack)
 
 ### Our First App
