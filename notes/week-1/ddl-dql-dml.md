@@ -1,5 +1,5 @@
 # SQL Sub-Languages
-Traditionally when we write in SQL we write the SQL keywords in CAPS. This way it's clear which words are part of SQL. With modern applications coloring and formatting code it's not as important anymore, so you may see this convention dropped. SQL is **not case sensitive**.
+Traditionally when we write in SQL we write the SQL keywords in CAPS. This way it's clear which words are part of SQL. With modern applications coloring and formatting code it's not as important anymore, so you may see this convention dropped. SQL is **not case sensitive**. Below are 3 of the sub-languages in SQL. There are 4 or 5 sub languages depending on who you ask. The other two we don't see are DCL and TCL, which we will cover when we get into SQL in greater detail. DCL is used for controlling user access privilages, and TCL is used for transactions.
 
 ### DDL
 **Data Definition Language (DDL)** statements are those for creating and modifying database objects. We use DDL to define the database **schema**. Schema just means the structure of the database, including tables, indexes, constraints, and more. 
