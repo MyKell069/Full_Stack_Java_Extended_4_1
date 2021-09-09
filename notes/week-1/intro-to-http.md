@@ -4,7 +4,7 @@ HTTP, or HyperText Transfer Protocol, is the protocol we use to browse the web. 
   
 ## HTTP Messages
 ### HTTP Request
-![http request](https://raw.githubusercontent.com/LiquidPlummer/Javalin-SQL-Week/main/images/http-request-image.png)  
+<div align="center"> <img src="./../../images/http-request-image.png"> </div>
   
 Each HTTP request is composed of:
  - HTTP Verb - the HTTP method to execute
@@ -14,7 +14,7 @@ Each HTTP request is composed of:
  - Request Body - message content (resource representation in REST)
 
 ### HTTP Response
-![http response](https://raw.githubusercontent.com/LiquidPlummer/Javalin-SQL-Week/main/images/http-response-image.png)  
+<div align="center"> <img src="./../../images/http-response-image.png"> </div>
   
 Each HTTP response is composed of:
  - HTTP Response Code - code indicating the status of the request
