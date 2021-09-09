@@ -1,4 +1,4 @@
-# Full Stack Java Extended V4.1
+# Full Stack Java Extended V4.1 - Week 1
 
 
 ### Java & OOP
