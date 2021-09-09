@@ -14,7 +14,7 @@
 
 ### Databases & SQL
  - [Relational Database Management Systems (RDBMS)](./intro-to-rdbms.md)
- - Intro to SQL
+ - [Intro to SQL](./intro-to-sql.md)
    - DDL
    - DQL
    - DML
