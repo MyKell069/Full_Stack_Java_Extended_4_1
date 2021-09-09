@@ -15,9 +15,9 @@
 ### Databases & SQL
  - [Relational Database Management Systems (RDBMS)](./intro-to-rdbms.md)
  - [Intro to SQL](./intro-to-sql.md)
-   - [DDL]()
-   - [DQL]()
-   - [DML]()
+   - [DDL](./ddl-dql-dml.md#ddl)
+   - [DQL](./ddl-dql-dml.md#dql)
+   - [DML](./ddl-dql-dml.md#dml)
  - JDBC
 
 ### HTML & JavaScript
