@@ -31,4 +31,4 @@
  - [Intro to Web Services](./intro-to-web-services.md)
  - [Client-Server Architecture](./client-server-architecture.md)
  - [Servlets](./intro-to-servlets.md)
- - [AJAX](https://github.com/LiquidLessonPlans/Full_Stack_Java_Extended_4_1/blob/main/notes/week-1/ajax.md)
+ - [AJAX](./ajax.md)
