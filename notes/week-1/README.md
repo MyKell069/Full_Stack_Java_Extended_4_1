@@ -24,7 +24,7 @@
 
 ### HTML & JavaScript
  - [Intro to HTML](./intro-to-html.md)
- - Intro to JavaScript
+ - [Intro to JavaScript](./intro-to-javascript.md)
 
 ### Web Services
  - [Intro to HTTP](./intro-to-http.md)
