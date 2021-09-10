@@ -1,4 +1,4 @@
-### Client and Server Architecture
+# Client / Server Architecture
 
 A client-server architecture is a networking model in which the server provides services to clients to perform user-based tasks. A client and a server are two pieces of software that might be on the same computer, or two different computers that might be separated by miles but connected by the Internet.
 
