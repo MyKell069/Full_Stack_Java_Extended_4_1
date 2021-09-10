@@ -6,7 +6,7 @@ A client-server architecture is a networking model in which the server provides 
 
 **Client** - A client is a program that runs on a local machine requesting service from the server.
 
-![](./images/client-server.png )
+<div align="center"> <img src="./../../images/client-server.png" </div>
 
 A Client and a Server establish a connection according to a set of rules called a protocol. There are quite a few protocols for different purposes, but one of the most popular is the **HTTP protocol**. Once the connection is established, the Client sends **HTTP Requests** to the server in the form of XML or JSON, which both entities (Client and Server) understand. After parsing the request, the Server responds with appropriate data by sending back an **HTTP Response**.
 
