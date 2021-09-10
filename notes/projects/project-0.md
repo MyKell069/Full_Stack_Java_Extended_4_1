@@ -39,9 +39,9 @@ These are user stories to describe the banking app. If you are not building the 
 * All monetary amounts should be displayed in a proper currency format ($1,234.56).
 
 ### Bonus Stories
-As a user, I can view the transaction history for an account.
-As a user, I can share an account with another user.
-As a user, I can transfer funds between accounts.
+ - As a user, I can view the transaction history for an account.
+ - As a user, I can share an account with another user.
+ - As a user, I can transfer funds between accounts.
 
 ## Tech Stack
 You should be employing the following technologies in your project.
