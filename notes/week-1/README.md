@@ -30,5 +30,5 @@
  - [Intro to HTTP](./intro-to-http.md)
  - [Intro to Web Services](./intro-to-web-services.md)
  - [Client-Server Architecture](./client-server-architecture.md)
- - Servlets
+ - [Servlets](./intro-to-servlets.md)
  - AJAX
