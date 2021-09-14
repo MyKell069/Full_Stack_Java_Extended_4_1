@@ -3,7 +3,7 @@
 ### If-Then
 The most basic control flow statement is the if-then statement. This statement evaluates if some predicate is true or false, and if the predicate evaluates to true the code in the block is executed, otherwise it is skipped.
 ```
-if(x = 5 /*predicate statement*/ ) {
+if(x == 5 /*predicate statement*/ ) {
     //do something
 }
 ```
