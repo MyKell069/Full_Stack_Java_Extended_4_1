@@ -11,7 +11,7 @@ if(x == 5 /*predicate statement*/ ) {
 ### If-Then-Else
 An else clause can be added to the basic if-then to get an if-then-else statement. This statement evaluates if a predicate is true or false just like above. If true, the first block is executed, if false the else block is executed.
 ```
-if(x = 5) {
+if(x == 5) {
     //do something
 } else {
     //do something else
@@ -19,9 +19,9 @@ if(x = 5) {
 ```
 These stataments can be further expanded by chaining else-if statements. We simply add another if-then after the else and we can chain alternatives as long as we want.
 ```
-if(x = 5) {
+if(x == 5) {
     //do something
-} else if(x = 6) {
+} else if(x == 6) {
     //do something else
 } else if(x >= 7) {
     //do a different thing
