@@ -95,7 +95,7 @@ For each Integer object in a collection of Integers, take that Integer and doubl
 
 ## Jumps
 ### Break
-We saw break earlier, commonly used in switch statements to avoid fall-through execution. Break can also be used to break out of any control statement. Break will cause execution inside the block to stop and execution to continue after the block ends.
+We saw break earlier, commonly used in switch statements to avoid fall-through execution. Break can also be used to break out of any loop or switch statement. Break will cause execution inside the block to stop and execution to continue after the block ends.
 ```
 while(true) {
     x++;
