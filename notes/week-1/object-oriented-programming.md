@@ -15,7 +15,7 @@ Encapsulation is the idea of combining data and behavior into a single logical u
 Abstraction is a principle in which we hide underlying complexity and expose a simplified interface. Consider a TV, We can turn volume up or down, change the channel, power it on and off, but we never know the inner workings of the TV that makes this possible. We don't care how the images are displayed nor how the functions work, these thigns are abstracted away from us. Instead we simply interface with the TV by pushing buttons on the remote. 
   
 ## Inheritance
-Inheritance is the ability of an entity acquiring some or all of the data and behaviors of another entity. In Java these entities are classes, and child classes inherit from a parent class. These are also sometimes called "base class" and "sub-class". In Java all non-private fields and methods are inherited by a child class using the `extends` keyword. In Java, you can only inherit from a single parent class. 
+Inheritance is the ability of an entity acquiring some or all of the data and behaviors of another entity. In Java these entities are classes, and child classes inherit from a parent class. These are also sometimes called "base class" or "super class" and "sub-class". In Java all non-private fields and methods are inherited by a child class using the `extends` keyword. In Java, you can only inherit from a single parent class. 
   
 The benefit of inheritance is mainly re-use of code. Rather than re-invent the wheel every time, we can re-use an existing class and alter some of it's behavior to suit a new purpose.
   
