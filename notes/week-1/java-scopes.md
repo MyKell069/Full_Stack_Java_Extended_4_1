@@ -30,7 +30,7 @@ public class MyClass {
         }
         //B
     }
-    //C
+    //A
 }
 ```
 In the above example `classLevelScope` is an `int` which is in scope at all three points A, B, and C. `methodLevelScope` is an `int` which is in scope at points B & C, but not at point A. Finally, `blockScope` is only in scope at point C. As soon as we leave the block where `blockScope` is defined it falls out of scope and is no longer valid. As far as we are concerned it no longer exists. Once we leave the method `myClassMethod` `methodLevelScope` also falls out of scope and no longer exists. Finally, `classLevelScope` is only in scope as long as this object is. As long as this object is in scope the public member `classLevelScope` can be accessed via the object.
