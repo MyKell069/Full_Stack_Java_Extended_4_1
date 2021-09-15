@@ -2,12 +2,14 @@ package models;
 
 public class ToDoItem {
     private String toDoText;
+    private boolean complete;
 
     public ToDoItem() {
-        
+        complete = false;
     }
 
     public ToDoItem(String toDoText) {
+        complete = false;
         this.toDoText = toDoText;
     }
 
@@ -19,7 +21,15 @@ public class ToDoItem {
         this.toDoText = toDoText;
     }
 
-/*
+    public boolean isComplete() {
+        return complete;
+    }
+
+    public void setComplete(boolean complete) {
+        this.complete = complete;
+    }
+
+    /*
     This is a list of the 8 java primitive types and the wrapper classes that correspond to them. ~-2,140,000 - ~2,140,000
      */
 //    public int i; //whole number value, 32-bits signed
