@@ -3,7 +3,7 @@
 ### If-Then
 The most basic control flow statement is the if-then statement. This statement evaluates if some predicate is true or false, and if the predicate evaluates to true the code in the block is executed, otherwise it is skipped.
 ```
-if(x = 5 /*predicate statement*/ ) {
+if(x == 5 /*predicate statement*/ ) {
     //do something
 }
 ```
@@ -11,7 +11,7 @@ if(x = 5 /*predicate statement*/ ) {
 ### If-Then-Else
 An else clause can be added to the basic if-then to get an if-then-else statement. This statement evaluates if a predicate is true or false just like above. If true, the first block is executed, if false the else block is executed.
 ```
-if(x = 5) {
+if(x == 5) {
     //do something
 } else {
     //do something else
@@ -19,9 +19,9 @@ if(x = 5) {
 ```
 These stataments can be further expanded by chaining else-if statements. We simply add another if-then after the else and we can chain alternatives as long as we want.
 ```
-if(x = 5) {
+if(x == 5) {
     //do something
-} else if(x = 6) {
+} else if(x == 6) {
     //do something else
 } else if(x >= 7) {
     //do a different thing
@@ -95,7 +95,7 @@ For each Integer object in a collection of Integers, take that Integer and doubl
 
 ## Jumps
 ### Break
-We saw break earlier, commonly used in switch statements to avoid fall-through execution. Break can also be used to break out of any control statement. Break will cause execution inside the block to stop and execution to continue after the block ends.
+We saw break earlier, commonly used in switch statements to avoid fall-through execution. Break can also be used to break out of any loop or switch statement. Break will cause execution inside the block to stop and execution to continue after the block ends.
 ```
 while(true) {
     x++;
