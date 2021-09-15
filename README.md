@@ -5,7 +5,7 @@
 [Our GitHub Orginization](https://github.com/210913-java-full-stack)
 
 ### Our First App
-[To-Do App](./to-do-app/)
+[To-Do App](https://github.com/210913-java-full-stack/To-Do-App)
 
 ### Sample Repos
 [Simple Samples](https://github.com/simple-samples)
