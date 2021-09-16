@@ -1,10 +1,10 @@
 ###########################################################
 ################## CREATE FRESH DATABASE ##################
 ###########################################################
-DROP DATABASE IF EXISTS assignment_db;
-CREATE DATABASE assignment_db;
+DROP DATABASE IF EXISTS <YOUR_DB_NAME>;
+CREATE DATABASE <YOUR_DB_NAME>;
 
-USE assignment_db;
+USE <YOUR_DB_NAME>;
 
 DROP TABLE IF EXISTS accounts;
 DROP TABLE IF EXISTS customers;
