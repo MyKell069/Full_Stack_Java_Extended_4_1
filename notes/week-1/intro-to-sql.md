@@ -25,7 +25,7 @@ The types of SQL commands used to query and manipulate data within a database ca
 When defining the properties of an entity in the database (i.e. the columns), you must specify the data type to store. Common SQL datatypes include:
 
 #### Numeric
-- BIT
+- INT
 - TINYINT
 - BIGINT
 - DECIMAL
