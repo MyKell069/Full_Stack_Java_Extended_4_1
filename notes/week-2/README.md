@@ -4,7 +4,7 @@
  - [Intro to Java Quiz]()
 
 ## Java
- - [Collections]()
+ - [Collections](./java-collections.md)
  - Exceptions
 
 ## SQL
