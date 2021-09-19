@@ -22,13 +22,4 @@
    - [DML](./ddl-dql-dml.md#dml)
  - [JDBC](./intro-to-jdbc.md)
 
-### HTML & JavaScript
- - [Intro to HTML](./intro-to-html.md)
- - [Intro to JavaScript](./intro-to-javascript.md)
 
-### Web Services
- - [Intro to HTTP](./intro-to-http.md)
- - [Intro to Web Services](./intro-to-web-services.md)
- - [Client-Server Architecture](./client-server-architecture.md)
- - [Servlets](./intro-to-servlets.md)
- - [AJAX](./ajax.md)
