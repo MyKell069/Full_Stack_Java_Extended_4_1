@@ -5,7 +5,7 @@
 
 ## Java
  - [Collections](./java-collections.md)
- - Exceptions
+ - [Exceptions](./java-exceptions.md)
 
 ## SQL
  - Relations
