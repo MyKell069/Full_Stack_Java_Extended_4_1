@@ -1,7 +1,7 @@
 # Full Stack Java Extended V4.1 - Week 2
 
 ## Quiz 
- - [Intro to Java Quiz]()
+ - Intro to Java Quiz
 
 ## Java
  - [Collections](./java-collections.md)
