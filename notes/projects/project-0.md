@@ -22,7 +22,7 @@ You will be expected to complete the minimum viable product by the deadline and 
 1. SQL Data Persistance (at least 3 tables; all 3NF (normal form))
 
 ### Bonus Features
-1. Unit tests for persistance-layer classes
+1. Unit tests for service-layer classes
 1. Logging messages and exceptions to a file
 
 
