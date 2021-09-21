@@ -85,7 +85,7 @@ Technically, type parameters can be named anything you want. The convention is t
 
 
 ## List Interface
-A `List` is a collection that is ordered and preserves the order in which elements are inserted into the list. Contrary to sets, duplicate entries are allowed. Also, elements are accessed by their index, which begins with 0 for the first element in the list.
+A `List` is a collection that is ordered and preserves the order in which elements are inserted into the list. Also, elements are accessed by their index, which begins with 0 for the first element in the list.
 
 ### Vector
 `Vector` is an older class which implements `List` - it is essentially a thread-safe implementation of an `ArrayList`.
