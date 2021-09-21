@@ -6,8 +6,8 @@
  - [Exceptions](./java-exceptions.md)
 
 ## SQL
- - Relations
- - Misc.
+ - [Constraints](./sql-constraints.md)
+ - [Relations](./sql-relations.md)
 
 ### HTML & JavaScript
  - [Intro to HTML](./intro-to-html.md)
