@@ -17,10 +17,10 @@ A many-to-many relationship implies a one-to-many relationship in both direction
 | ClassId | TeacherId | StudentId |
 | -------- | ---------- | ---------- |
 | 1        | 1          | 1          |
-| 1        | 1          | 2          |
-| 2        | 1          | 3          |
-| 3        | 2          | 1          |
-| 3        | 2          | 3          |
+| 2        | 1          | 2          |
+| 3        | 1          | 3          |
+| 4        | 2          | 1          |
+| 5        | 2          | 3          |
 
 We can see above that Teacher 1 teaches both Student 1 and 2 in the same class. Teacher 2 teaches Student 1 and 3 in a different class. Teacher 1 also has another class where he just teaches Student 3.
 
