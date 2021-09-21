@@ -8,6 +8,7 @@
 ## SQL
  - [Constraints](./sql-constraints.md)
  - [Relations](./sql-relations.md)
+ - [Indexes](./sql-indexes.md)
 
 ### HTML & JavaScript
  - [Intro to HTML](./intro-to-html.md)
