@@ -1,4 +1,6 @@
- - What is Java?
+# QC Questions on Java Basics
+
+- What is Java?
  - Pillars of OOP
  - Define Abstraction
  - Define Polymorphism
