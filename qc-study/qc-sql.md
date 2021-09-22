@@ -1,4 +1,6 @@
- - What is a relational database?
+# QC Questions on Servlets(Java)
+
+- What is a relational database?
  - Name some common RDBMS platforms/vendors
  - What is SQL?
  - What are the sub-languages of SQL?
