@@ -39,3 +39,14 @@
  - Can garbage collected be forced in Java?
  - What are packages used for?
  - What are imports?
+ - What is the main method signature?
+ - What property of a Java primitive array tells us the size of the array?
+ - What are some constructs used in Java for flow control?
+ - What is the difference between a while and a do-while loop?
+ - What is the difference between a for loop and an enhanced for loop?
+ - What is the difference between an exception and an error in Java?
+ - What is the difference between a checked and an unchecked exception?
+ - How can exceptions be handled in Java?
+ - What is the purpose of the finally block?
+ - Are you required to handle RuntimeExceptions?
+ - Can exceptions be caught by multiple catch blocks in any order?
