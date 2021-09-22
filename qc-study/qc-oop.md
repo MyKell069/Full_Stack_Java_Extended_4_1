@@ -1,4 +1,6 @@
- - Describe the characteristics of the object-oriented paradigm
+# QC Questions on Object Oriented Programming
+
+- Describe the characteristics of the object-oriented paradigm
  - Pillars of OOP
  - Define Abstraction and provide advantages to using it
  - Define Polymorphism and provide advantages to using it
