@@ -1,4 +1,6 @@
- - What is a Java servlet?
+# QC Questions on Servlets
+
+- What is a Java servlet?
  - What are the lifecycle methods of a Java servlet?
  - How many times are each of the lifecycle methods called in the lifetime of a single servlet?
  - What are some of the core classes and interfaces in the Java Servlet API?
