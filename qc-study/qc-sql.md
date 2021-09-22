@@ -1,4 +1,4 @@
-# QC Questions on Servlets(Java)
+# QC Questions on SQL
 
 - What is a relational database?
  - Name some common RDBMS platforms/vendors
