@@ -3,7 +3,7 @@ JSON, or JavaScript Object Notation, is a lightweight text-based open standard d
 
 ## JSON Objects
 
-JSON objects are represented as a string of characters enclosed in curly braces, and organizes data in key/value pairs separated by colons. Keys are strings that identify the values, the values can be of several JSON compatible data types:
+JSON objects are represented as a string of characters enclosed in curly braces, and organizes data in key/value pairs. The pairs are separated by commas, the keys and values are separated by colons. Keys are strings that identify the values, the values can be of several JSON compatible data types:
  - string - a series of characters enclosed in "double quotes".
  - number - positive or negatives integers or floats.
  - object - one or more key/value pairs enclosed in {curly braces} separated by commas. (in this way we nest JSON objects)
