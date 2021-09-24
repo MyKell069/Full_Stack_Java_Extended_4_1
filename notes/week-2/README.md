@@ -9,6 +9,7 @@ see: https://www.guru99.com/database-normalization.html
  - [Constraints](./sql-constraints.md)
  - [Relations](./sql-relations.md)
  - [Indexes](./sql-indexes.md)
+ - [Normalization]()
 
 ### HTML & JavaScript
  - [Intro to HTML](./intro-to-html.md)
