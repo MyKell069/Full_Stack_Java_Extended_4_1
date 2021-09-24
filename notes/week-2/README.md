@@ -12,6 +12,7 @@ see: https://www.guru99.com/database-normalization.html
 
 ### HTML & JavaScript
  - [Intro to HTML](./intro-to-html.md)
+ - [HTML forms](./html-forms.md)
  - [Intro to JavaScript](./intro-to-javascript.md)
  - [Intro to CSS](./intro-css.md)
 
