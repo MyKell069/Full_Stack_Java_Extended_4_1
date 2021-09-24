@@ -1,6 +1,9 @@
 # Full Stack Java Extended V4.1 - Week 2
 see: https://www.guru99.com/database-normalization.html
 
+## OOP
+ - [SOLID](./)
+
 ## Java
  - [Collections](./java-collections.md)
  - [Exceptions](./java-exceptions.md)
