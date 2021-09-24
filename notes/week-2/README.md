@@ -2,7 +2,7 @@
 see: https://www.guru99.com/database-normalization.html
 
 ## OOP
- - [SOLID](./)
+ - [SOLID](./oop-solid.md)
 
 ## Java
  - [Collections](./java-collections.md)
