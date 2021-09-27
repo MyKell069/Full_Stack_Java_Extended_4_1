@@ -2,6 +2,7 @@
 
 
 ## Intermediate Java
+ - [Arrays](./java-arrays.md)
  - [Strings, StringBuffer, StringBuilder](./java-strings.md)
  - [Annotations](./java-annotations.md)
  - [Object Class](./java-object-class.md)
