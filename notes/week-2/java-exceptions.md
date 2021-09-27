@@ -46,6 +46,29 @@ Catch and finally blocks have several different rules which must be followed:
 * A `try/finally` block only IS allowed, but a `try` block by itself is not
 * A `finally` block will always execute, unless of course `System.exit()` is called
 
+## Try-with-resources
+When using `try/catch` blocks, often times some object used in the code is a resource that should be closed after it is no longer needed to prevent memory leaks - for example a `FileReader`, `InputStream`, or a JDBC `Connection` object. With Java 7, we can use a `try-with-resources` block which will automatically close the resource for us:
+
+#### Old way
+```java
+try {
+  InputStream is = new FileInputStream("./some/file.ext");
+  String s = is.read();
+} catch(IOException e) {
+} finally {
+  is.close();
+}
+```
+
+#### New way
+```java
+try(InputStream is = new FileInputStream("./some/file.ext")) {
+  String s = is.read();
+} catch(IOException e) {}
+```
+
+Whatever is placed within the parenthesis of the `try` statement will be closed automatically - thus, we don't need to explicitly call it within our `finally` block above. This new format requires the object in the `try` statement to **implement the [AutoCloseable](https://docs.oracle.com/javase/8/docs/api/java/lang/AutoCloseable.html) interface**.
+
 ## Custom Exceptions
 A programmer can create custom exceptions in Java by extending any exception class. If you extend `RuntimeException`, however, you will be creating an unchecked exception. This is a good idea if you do **not** want other code to have to handle your exception being thrown. If you do always want to require your exception to be handled, then create a checked exception by extending any existing one, or the `Exception` class itself.
 
@@ -70,3 +93,4 @@ public class ExceptionThrower {
   }
 }
 ```
+
