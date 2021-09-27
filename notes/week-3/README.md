@@ -5,6 +5,7 @@
  - [Arrays](./java-arrays.md)
  - [Revisit Collections](./../week-2/java-collections.md) - Sets, Queues, Maps, comparator/comparable and iterable.
  - [Revisit Exceptions](./../week-2/java-exceptions.md) - Try with resources
+ - [Revisit Scopes](./../week-1/java-scopes.md) - instance/object scope
  - [Strings, StringBuffer, StringBuilder](./java-strings.md)
  - [Annotations](./java-annotations.md)
  - [Object Class](./java-object-class.md)
