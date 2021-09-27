@@ -1,7 +1,7 @@
+# Keywords, Modifiers, and Operators
 
 
-
-### Modifiers
+## Modifiers
 
 We already saw two different **modifiers** on the `main` method above - one is an **access modifier** and the other is a **non-access modifier**. 
 
@@ -21,7 +21,7 @@ The `default` access level requires additional clarification - this access level
 
 Using `private` modifiers on instance variables - along with public getter and setter methods - helps with **encapsulation**, which is one of the pillars of object-oriented programming.
 
-### Non-Access Modifiers
+## Non-Access Modifiers
 
 Java also has **non-access** modifiers which can be placed on various class members:
 * `static` - denotes "class" scope, meaning the member resides on the class itself, not object instances.
@@ -68,6 +68,8 @@ public class Example {
 	}
 }
 ```
+  
+## Operators
 
 | Operators | Precedence |
 | --------- | ---------- |
@@ -88,7 +90,7 @@ public class Example {
 
 
 
-### Full list of Keywords
+## Full list of Keywords
 
 - abstract
  - assert
