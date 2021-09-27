@@ -3,7 +3,8 @@
 
 ## Intermediate Java
  - [Arrays](./java-arrays.md)
- - [Revisit Collections](./../week-2/java-collections.md)
+ - [Revisit Collections](./../week-2/java-collections.md) - Sets, Queues, Maps, comparator/comparable and iterable.
+ - [Revisit Exceptions](./../week-2/java-exceptions.md) - Try with resources
  - [Strings, StringBuffer, StringBuilder](./java-strings.md)
  - [Annotations](./java-annotations.md)
  - [Object Class](./java-object-class.md)
