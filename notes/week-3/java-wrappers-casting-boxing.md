@@ -43,6 +43,7 @@ public class AutomaticCasting {
   public static void main(String[] args){
     int n = 10;
     double d = n; //This is now converted from an int to a double.
+    double e = (double) n; //This is explicit, and otherwise the same as the above syntax.
   }
 }
 ```
