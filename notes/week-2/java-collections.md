@@ -13,6 +13,25 @@ The important interfaces in the Collections API are:
 ## Collections Class
 The [Collections](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html) class - not to be confused with the Collection interface - defines many `static` helper methods which operate on any given collection. Use this class for help with sorting, searching, reversing, or performing other operations on collections.
 
+## Comparable and Comparator Interfaces
+[`Comparable`](https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html) is an interface which defines the natural ordering for a class. A class must implement `Comparable` if it is to be sorted by the `compareTo()` method.
+```java
+public interface Comparable<T> {
+	public int compareTo(T o);
+}
+```
+
+The `compareTo()` method returns an `int` which is:
+* Zero, if the two objects are equal
+* Negative, if this object is smaller than that
+* Positive, if this object is greater than that
+
+[`Comparator`](https://docs.oracle.com/javase/8/docs/api/java/util/Comparator.html) is an interface which allows you to define a total ordering on some collection of objects. A class that is to be sorted by `compare()` does not have to implement `Comparator`.
+```java
+public interface Comparator<T> {
+	public int compare(T firstObject, T secondObject);
+}
+```
 
 ## Iterable and Iterator Interface
 The `Iterable` interface defines a data structure which can be directly traversed using the `.iterator()` method, which returns an `Iterator`. This can be useful for fine-grained control over iteration. The `Iterator` interface contains methods for traversal, including:
@@ -123,15 +142,22 @@ Map does not implement the Collection interface, however it is considered to be 
 ### HashTable
 `HashTable` is an older, thread-safe implementation of a `HashMap`. It does not allow null keys or null values.
 
-## Set Interface
-`Set` is an interface which defines a data structure which:
-* is NOT index driven
-* only allows unique elements
-* generally DOES NOT preserve the order in which elements were inserted
+## Comparable and Comparator Interfaces
+[`Comparable`](https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html) is an interface which defines the natural ordering for a class. A class must implement `Comparable` if it is to be sorted by the `compareTo()` method.
+```java
+public interface Comparable<T> {
+	public int compareTo(T o);
+}
+```
 
-## Queue Interface
-A `Queue` is a data structure used when elements should be added and removed in a specific order. Unless specified, elements are ordered FIFO (first-in-first-out). Some useful methods declared are:
-* `offer()`
-* `peek()`
-* `poll()`
+The `compareTo()` method returns an `int` which is:
+* Zero, if the two objects are equal
+* Negative, if this object is smaller than that
+* Positive, if this object is greater than that
 
+[`Comparator`](https://docs.oracle.com/javase/8/docs/api/java/util/Comparator.html) is an interface which allows you to define a total ordering on some collection of objects. A class that is to be sorted by `compare()` does not have to implement `Comparator`.
+```java
+public interface Comparator<T> {
+	public int compare(T firstObject, T secondObject);
+}
+```
