@@ -1,6 +1,9 @@
 
 # Full Stack Java Extended V4.1 - Week 3
 
+# Wednesday: GO OVER ARRAYLIST IMPLEMENTATION! GIVE GUIDANCE ON HOW IT WILL BE BUILT
+
+
 ## Intermediate Java
  - [Arrays](./java-arrays.md)
  - [Revisit Collections](./../week-2/java-collections.md) - Sets, Queues, Maps, comparator/comparable and iterable.
