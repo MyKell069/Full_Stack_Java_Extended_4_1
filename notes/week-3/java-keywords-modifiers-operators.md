@@ -82,9 +82,9 @@ public class Example {
 | equality | == != |
 | bitwise AND | & |
 | bitwise exclusive OR | ^ |
-| bitwise inclusive OR | | |
+| bitwise inclusive OR | \| |
 | logical AND | && |
-| logical OR | || |
+| logical OR | \|\| |
 | ternary | ? : |
 | assignment | = += -= *= /= %= &= ^= |= <<= >>= >>>= |
 
