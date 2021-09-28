@@ -40,7 +40,7 @@ Java also has **non-access** modifiers which can be placed on various class memb
 * `strictfp` - restricts floating point calculations for portability. Obscure, rarely-used keyword.
 
 Below is a class with various class members which have different modifiers associated with them:
-```
+```java
 package com.revature.mypackage;
 
 public class Example {
