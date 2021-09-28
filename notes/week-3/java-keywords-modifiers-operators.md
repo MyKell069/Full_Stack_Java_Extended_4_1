@@ -17,7 +17,7 @@ Access modifiers are keywords which define the ability of other code to access t
 | `private` | Only within the same class |
 <br>
 
-The `default` access level requires additional clarification - this access level is "default" because **there is no keyword** to be used. This access level is also known as "package private".
+The default access level requires additional clarification - this access level is "default" because **there is no keyword** to be used. This access level is also known as "package private".
 
 Using `private` modifiers on instance variables - along with public getter and setter methods - helps with **encapsulation**, which is one of the pillars of object-oriented programming.
 
