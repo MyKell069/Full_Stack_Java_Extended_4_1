@@ -1,7 +1,7 @@
 ## Arrays
 An array is a contiguous block of memory storing a group of sequentially stored elements of the same type. Arrays in Java are of a fixed size and cannot be resized after declaration. Arrays are declared with square brackets after the type of the array like so:
 ```java
-int[] myInts = new int[]{1, 2, 3, 4};
+int[] myInts = new int[]{0, 1, 2, 3};
 String languages[] = {"Java", "JavaScript", "SQL"};
 ```
 
