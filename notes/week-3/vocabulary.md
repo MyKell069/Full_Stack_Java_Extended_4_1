@@ -33,4 +33,4 @@
  - This - Allows an object to refer to itself.
  - Marshal - To restructure data for a new purpose.
  - Representation - Different forms information can take. All data is represented as binary behind the scenes. 
- - Immutable - Cannot be changed, final.
+ - Immutable - Cannot be changed, final, constant.
