@@ -17,8 +17,8 @@
  - [Java Keywords, Modifiers, and Operators](./java-keywords-modifiers-operators.md)
  - [Garbage Collection](./java-garbage-collection.md)
  - [Stack and Heap Memory](./java-stack-heap.md)
-
+  
+  
  - [Serialization](./java-serialization.md)
  - [Design Patterns](./design-patterns.md)
  - [Threads](./java-threads.md)
- - 
