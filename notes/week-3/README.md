@@ -1,7 +1,9 @@
 
 # Full Stack Java Extended V4.1 - Week 3
 
-# Wednesday: GO OVER ARRAYLIST IMPLEMENTATION! GIVE GUIDANCE ON HOW IT WILL BE BUILT
+# Thursday
+- Go over getting the auto incremented id's after an insert from Java.
+- Go over some sort of view solution - ViewManager?
 
 ## Self-Study:
 These are topics that are less important and were skipped in lecture, you should study these topics so that you can answer QC questions about them.
