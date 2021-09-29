@@ -19,6 +19,7 @@
  - [Stack and Heap Memory](./java-stack-heap.md)
   
   
+## Even More Intermediate Topics
  - [Serialization](./java-serialization.md)
  - [Design Patterns](./design-patterns.md)
  - [Threads](./java-threads.md)
