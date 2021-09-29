@@ -1,7 +1,5 @@
 # Module - Design Patterns
 
-This module covers all the topics defined [here](./README.md).
-
 ## Design Patterns
 Design patterns are established general solutions to commonly occuring software development problems. They can be broadly categorized into:
 * Creational
