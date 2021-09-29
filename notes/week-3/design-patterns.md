@@ -32,7 +32,7 @@ To make a class into a Singleton, use:
 
 ## Factory Pattern
 Factory is a design pattern which creates objects in which the precise type may not be known until runtime. To make a factory, use:
-1. Abstract data type
+1. Abstract data type - (abstract class or interface)
 2. Classes that inherit the abstract data type (the objects whose instantiation details may not be known until runtime)
 3. Static method that returns a concrete instance, whose return type is the abstract data type in (1)
 ```java
