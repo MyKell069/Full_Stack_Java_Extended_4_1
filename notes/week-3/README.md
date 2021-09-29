@@ -23,3 +23,5 @@
  - [Serialization](./java-serialization.md)
  - [Design Patterns](./design-patterns.md)
  - [Threads](./java-threads.md)
+
+## PREPARE NOTES ON THREAD POOL
