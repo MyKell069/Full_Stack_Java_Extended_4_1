@@ -7,7 +7,7 @@ Design patterns are established general solutions to commonly occuring software 
 * Behavioral
 
 ## Singleton Pattern
-A Singleton is a design pattern which allows the creation of an object in memory only once in an application and can be shared across multiple classes. It can be useful for services in an application, or other resources like a connection or thread pool.
+A Singleton is a design pattern which allows the creation of an object in memory only once in an application that instance is shared everywhere needed. It can be useful for services in an application, or other resources like a connection or thread pool.
 
 To make a class into a Singleton, use:
 1. `private static` variable of the class' type
