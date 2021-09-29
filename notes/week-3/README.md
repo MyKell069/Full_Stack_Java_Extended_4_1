@@ -3,6 +3,9 @@
 
 # Wednesday: GO OVER ARRAYLIST IMPLEMENTATION! GIVE GUIDANCE ON HOW IT WILL BE BUILT
 
+## Self-Study:
+These are topics that are less important that we skipped in lecture, you should study these topics so that you can answer QC questions about them.
+ - [Maven ](./maven.md)
 
 ## Intermediate Java
  - [Arrays](./java-arrays.md)
