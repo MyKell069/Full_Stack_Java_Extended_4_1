@@ -25,7 +25,7 @@ Amazon Relational Database Service (Amazon RDS) is a web service that makes it e
 * RDS is **free to try** and you will be charged based on how much computational power you use per month (pay-as-you-go).  
 
 * RDS provides you with six familiar database engines to choose from, including Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle Database, and SQL Server. 
-    <img src="./images/rds2.png.png" width=900px alt="AWS Services Chart"/>  
+    <img src="./images/rds2.png" width=900px alt="AWS Services Chart"/>  
 
 
 ## Why Use RDS?
