@@ -29,6 +29,25 @@ An instance is a virtual server in the cloud. Its configuration at launch is a c
 
 You can launch different types of instances from a single AMI. An instance type essentially determines the hardware of the host computer used for your instance. Each instance type offers different compute and memory capabilities. Select an instance type based on the amount of memory and computing power that you need for the application or software that you plan to run on the instance. For more information about the hardware specifications for each Amazon EC2 instance type, see [Amazon EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/).
 
+## IAM
+
+### References
+References are resources (either external or internal) that trainers and associates can use to lookup information about the technology - typically documentation, notes, videos, or tutorials
+* [IAM User Guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)
+
+### List of Topics
+These are links to the lecture notes and other resources for the topics in this module
+* [AWS IAM Concepts](./iam-concepts.md)
+* [IAM - Security Best Practices](./iam-best-practices.md)
+
+### Prerequisites & Learning Objectives
+* [Cloud Computing Overview](../cloud-computing-overview/readme.md)
+
+After completing all the modules in this repository, associates should be able to:
+* Create users, groups, and roles on their AWS account
+* Set permissions for users and policies for resources on AWS
+
+
 ### Create an EC2 Instance
 1. Sign into AWS as a root user.  Go to **EC2 Dashboard**. Select `Launch Instance`.
 2. Choose an **Amazon Machin Image (AMI)** - select `Amazon Linux 2 AMI (HVM), SSD Volume Type` - 64 bit (x86).
