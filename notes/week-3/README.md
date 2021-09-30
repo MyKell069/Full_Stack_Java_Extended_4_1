@@ -9,7 +9,7 @@
 These are topics that are less important and were skipped in lecture, you should study these topics so that you can answer QC questions about them.
  - [Maven ](./maven.md)
  - [AWS: EC2, EBS, AMI](./../../aws/)
- - [Linux]()
+ - [Linux](./../../linux/)
 
 ## Intermediate Java
  - [Arrays](./java-arrays.md)
