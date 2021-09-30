@@ -4,4 +4,4 @@
  - [RDS](./rds.md)
  - [EC2](./ec2.md)
  - [EBS](./ebs.md)
- - [IAM & Security](iam-security.md)
+ - [IAM & Security](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)
