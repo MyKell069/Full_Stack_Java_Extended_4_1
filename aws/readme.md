@@ -4,5 +4,4 @@
  - [RDS](./rds.md)
  - [EC2](./ec2.md)
  - [EBS](./ebs.md)
- - [AMI](./ami.md)
  - [IAM & Security](iam-security.md)
