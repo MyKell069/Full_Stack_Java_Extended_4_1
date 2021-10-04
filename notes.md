@@ -24,5 +24,15 @@
  - [Java Serialization](./java/java-serialization.md)
  - [Java Threads](./java/java-threads.md)
 
-
+## SQL
+ - [Intro to SQL](./sql/intro-to-sql.md)
+ - [Relational Database Management Systems (RDBMS)](./sql/intro-to-rdbms.md)
+   - [DDL](./sql/ddl-dql-dml.md#ddl)
+   - [DQL](./sql/ddl-dql-dml.md#dql)
+   - [DML](./sql/ddl-dql-dml.md#dml)
+ - [Defining Schema](./sql/defining-schema.md)
+ - [JDBC](./sql/intro-to-jdbc.md)
+ - [Indexes](./sql/sql-indexes.md)
+ - [Relations](./sql/sql-relations.md)
+ - [Constraints](./sql/sql-constraints.md)
 
