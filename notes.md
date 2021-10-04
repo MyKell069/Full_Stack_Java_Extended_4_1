@@ -20,7 +20,7 @@
  - [Exceptions in Java](./java/java-exceptions.md)
  - [Annotations](./java/java-annotations.md)
  - [Collections Framework](./java/java-collections.md)
- - [Java servlets](./java/java-servlets.md)
+ - [Java servlets](./java/intro-to-servlets.md)
  - [Java Serialization](./java/java-serialization.md)
  - [Java Threads](./java/java-threads.md)
 
