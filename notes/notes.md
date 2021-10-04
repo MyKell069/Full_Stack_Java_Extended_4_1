@@ -2,6 +2,7 @@
 
 ## **\*NEW\***
  - [Intro to Servlets](./web%20services/intro-to-servlets.md)
+ - [Servlet Config](./web%20services/servlet-config.md)
 
 ## Object Oriented Programming
  - [Object Oriented Programming](./java/object-oriented-programming.md)
