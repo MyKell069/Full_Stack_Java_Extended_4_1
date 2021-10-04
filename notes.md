@@ -1,7 +1,7 @@
 # Java Full Stack Extended 4.1 Notes
 
 ## **\*NEW\***
- - []()
+ - [Intro to Servlets](./web%20services/intro-to-servlets.md)
 
 ## Object Oriented Programming
  - [Object Oriented Programming](./java/object-oriented-programming.md)
@@ -23,7 +23,7 @@
  - [Exceptions in Java](./java/java-exceptions.md)
  - [Annotations](./java/java-annotations.md)
  - [Collections Framework](./java/java-collections.md)
- - [Java Servlets](./java/intro-to-servlets.md)
+
  - [Java Serialization](./java/java-serialization.md)
  - [Java Threads](./java/java-threads.md)
 
