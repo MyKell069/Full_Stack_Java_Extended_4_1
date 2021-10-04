@@ -37,4 +37,6 @@
  - [Constraints](./sql/sql-constraints.md)
 
 ## Web Services
+ - [Intro to Web Services](./web%20services/intro-to-web-services.md)
  - [Intro to HTTP](./web%20services/intro-to-http.md)
+ - [Client-Server Architecture](./web%20services/client-server-architecture.md)
