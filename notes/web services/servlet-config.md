@@ -1,8 +1,18 @@
 # Servlet Config
 
-## Declaring and mapping servlets
+## Deployment descriptor
 
-To configure a servlet in the web.xml file,
+Java web applications use a **deployment descriptor file** to define the URLs that map to servlets, and to determine which URLs require authentication and additional information.
+
+A deployment descriptor file specifies the classes, resources, and configuration of the application and how the web server uses them to serve HTTP requests. 
+
+The deployment descriptor is a file named **web.xml**. It resides within the app's WAR beneath the WEB-INF/ directory.The root element of the web.xml file is `<web-app>`.
+
+The **web.xml** file defines mappings between URL paths and the servlets that will handle requests with those paths. The application server uses this configuration to find the servlet that handles a given request, and calls the servlet method that corresponds to the HTTP request method used. 
+
+To map a URL to a servlet, you declare the servlet with the `<servlet>` element, then define a mapping from a URL path to a servlet declaration with the `<servlet-mapping>` element.
+
+To configure a servlet in the Deployment Descriptor (web.xml) file,
 1. Configure the servlet using the `<servlet>` element. 
 2. Map the servlet to a URL or URL pattern using the `<servlet-mapping>` element.
 
@@ -19,39 +29,6 @@ The `<servlet-mapping>` element is used to specify a URL pattern, and the name o
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
          http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
-
-<servlet>
-        <servlet-name>servlet1</servlet-name>
-        <servlet-class>com.revature.MyFirstServlet</servlet-class>
-</servlet>
-
-<servlet-mapping>
-        <servlet-name>servlet1</servlet-name>
-        <url-pattern>/*</url-pattern>
-</servlet-mapping>
-
-</web-app>
-````
-
-## Deployment descriptor
-
-Java web applications use a **deployment descriptor file** to define the URLs that map to servlets, and to determine which URLs require authentication and additional information.
-
-A deployment descriptor file specifies the classes, resources, and configuration of the application and how the web server uses them to serve HTTP requests. 
-
-The deployment descriptor is a file named **web.xml**. It resides within the app's WAR beneath the WEB-INF/ directory.The root element of the web.xml file is `<web-app>`.
-
-The **web.xml** file defines mappings between URL paths and the servlets that will handle requests with those paths. The application server uses this configuration to find the servlet that handles a given request, and calls the servlet method that corresponds to the HTTP request method used. 
-
-To map a URL to a servlet, you declare the servlet with the `<servlet>` element, then define a mapping from a URL path to a servlet declaration with the `<servlet-mapping>` element.
-
-Below we have simple **web.xml** file that maps all URL paths (/*) to the servlet class `mysite.server.MyFirstServlet`.
-```xml
-<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
-         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
-         version="3.1">
     <servlet>
         <servlet-name>servlet1</servlet-name>
         <servlet-class>com.revature.MyFirstServlet</servlet-class>
@@ -62,6 +39,9 @@ Below we have simple **web.xml** file that maps all URL paths (/*) to the servle
     </servlet-mapping>
 </web-app>
 ```
+
+
+
 
 ### ServletConfig 
 
