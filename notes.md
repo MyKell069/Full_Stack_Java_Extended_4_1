@@ -1,7 +1,7 @@
 # Java Full Stack Extended 4.1 Notes
 
 ## **\*NEW\***
- - [Intro to Servlets](./web%20services/intro-to-servlets.md)
+ - [Intro to Servlets](./notes/web%20services/intro-to-servlets.md)
 
 ## Object Oriented Programming
  - [Object Oriented Programming](./java/object-oriented-programming.md)
