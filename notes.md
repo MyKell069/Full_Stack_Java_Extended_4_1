@@ -52,3 +52,10 @@
  - [Intro to Unix](./linux/intro-unix.md)
  - [Unix Commands](./linux/unix-commands.md)
  - [Misc. Linux](./linux/unix-linux.md)
+
+## Misc.
+ - [Git & GitHub](./misc/git-github.md)
+ - [Maven](./misc/maven.md)
+ - [Vocabulary WIP](./misc/vocabulary.md)
+ - [JSON](./misc/intro-to-json.md)
+ - [Design Patterns](./misc/design-patterns.md)
