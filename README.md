@@ -1,6 +1,7 @@
 # Full Stack Java Extended V4.1
 
 ### Full Stack Java Extended
+ - [Notes](./notes.md)
  - [Curriculum](./curriculum.md)  
  - [Our GitHub Orginization](https://github.com/210913-java-full-stack)
  - [QC Study](./qc-study)
