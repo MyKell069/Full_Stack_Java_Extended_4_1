@@ -110,7 +110,7 @@ public void destroy() {
 **Life Cycle of a Servlet:**
 
 
-![](./images/servlet_lifecycle.png)
+![](./../images/servlet_lifecycle.png)
 
 ### References
 
