@@ -43,6 +43,7 @@ These are user stories to describe the airline ticketing kiosk app. If you are n
 * As an administrator, I can see all users with tickets for a flight.
 
 ### Bonus Stories
+* As an administrator, I can cancel a ticket on any flight.
 * As an pilot, I can initiate takeoff of a flight. (No more new tickets or cancellations)
 
 ## Tech Stack
