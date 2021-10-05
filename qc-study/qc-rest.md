@@ -1,0 +1,23 @@
+ - What are the REST Constraints?
+ - Marshalling and Unmarshalling
+ - What is HTTP?
+ - What are the HTTP verbs/methods?
+ - What does it mean for an operation to be safe? What HTTP methods are safe?
+ - What does it mean for an operation to be idempotent? What HTTP methods are idempotent?
+ - What is the difference between PUT and PATCH requests?
+ - What are some differences between GET and POST requests?
+ - When would your API respond with a 201 status code?
+ - When would your API respond with a 204 status code?
+ - When would your API respond with a 401 status code?
+ - When would your API respond with a 403 status code?
+ - When would your API respond with a 404 status code?
+ - When would your API respond with a 405 status code?
+ - When would your API respond with a 409 status code?
+ - What is a resource?
+ - What is your understanding of what are RESTful web services?
+ - Name the protocol which is used by RESTful web services.
+ - Explain the term ‘Addressing’ with respect to RESTful web service.
+ - List the advantages and disadvantages of ‘Statelessness’
+ - Why proper representation of Resource is required?
+ - What is Caching?
+ - What is a Payload?
