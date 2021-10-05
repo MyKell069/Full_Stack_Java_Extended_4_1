@@ -15,4 +15,8 @@ These files are full of questions you are likely to be asked as part of QC. You 
 ### SQL/JDBC
  - [SQL](./qc-sql.md)
 
+
+### Web Services
+ - [REST](./qc-rest.md)
+
 ### More to come...
