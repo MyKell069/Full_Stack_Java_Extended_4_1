@@ -14,6 +14,6 @@
 
 ### Projects
  - [Project 0](./notes/projects/project-0.md)
- - [Project 1]()
+ - [Project 1](./notes/projects/project-1.md)
  - [Project 2]()
  - [Project 3]()
