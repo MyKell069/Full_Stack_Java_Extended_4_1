@@ -17,11 +17,13 @@ These files are full of questions you are likely to be asked as part of QC. You 
 
 
 ### Frontend/UI
- - [HTML](./qc-html.md)
- - [CSS](./qc-css.md)
+ - [HTML](./qc-html.md)\*
+ - [CSS](./qc-css.md)\*
 
 
 ### Web Services
- - [REST](./qc-rest.md)
+ - [REST](./qc-rest.md)\*
 
 ### More to come...
+
+* = new items
