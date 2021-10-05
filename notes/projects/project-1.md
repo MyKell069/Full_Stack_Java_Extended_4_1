@@ -11,7 +11,9 @@ Your next project will build upon the concepts from project 0, adding the follow
 
 You will be building a client/server application with a frontend and backend. Your backend server will expose an API, and your front end client will connect to that API to send and receive JSON data. The backend will be written in Java, and the frontend will be written in HTML/CSS/JavaScript. 
   
-You will be expected to complete the minimum viable product by the deadline and give a brief 5 minute presentation demonstrating your project and answering questions from the QC team.
+You will be expected to complete the minimum viable product by the deadline and give a brief presentation demonstrating your project and answering questions from the QC team.
+
+This project will be done in teams of 2-3 members that will be assigned when we begin.
 
 ### Minimum Requirements
 1. Proper use of OOP principles
