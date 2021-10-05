@@ -26,4 +26,4 @@ These files are full of questions you are likely to be asked as part of QC. You 
 
 ### More to come...
 
-* = new items
+\* = new items
