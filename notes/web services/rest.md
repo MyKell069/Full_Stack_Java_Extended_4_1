@@ -50,3 +50,9 @@ An application architecture needs to be composed of multiple layers. Each layer 
 
 ### Code on Demand
 This is an optional feature. According to this, servers can also provide executable code to the client. The examples of code on demand may include the compiled components such as Java applets and client-side scripts such as JavaScript.
+
+
+<BR><BR>See Also:
+ - [Representational State Transfer (REST) -Roy Fielding](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
+ - [What is Rest?](https://restfulapi.net/)
+ - [Rest Resource Naming Guide](https://restfulapi.net/resource-naming/)
