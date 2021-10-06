@@ -31,11 +31,10 @@ There are six architectural constraints that need to be followed in order to be 
 It is a key constraint that differentiate between a REST API and Non-REST API. It suggests that there should be an uniform way of interacting with a given server irrespective of device or type of application (website, mobile app).
 There are four guidelines principle of Uniform Interface are:
 
-### Resource-Based
-Individual resources are identified in requests. For example: API/users.
-Manipulation of Resources Through Representations: Client has representation of resource and it contains enough information to modify or delete the resource on the server, provided it has permission to do so. Example: Usually user get a user id when user request for a list of users and then use that id to delete or modify that particular user.
-Self-descriptive Messages: Each message includes enough information to describe how to process the message so that server can easily analyses the request.
-Hypermedia as the Engine of Application State (HATEOAS): It need to include links for each response so that client can discover other resources easily.
+ - Resource-Based - Individual resources are identified in requests. For example: API/users.
+ - Manipulation of Resources Through Representations: Client has representation of resource and it contains enough information to modify or delete the resource on the server, provided it has permission to do so. Example: Usually user get a user id when user request for a list of users and then use that id to delete or modify that particular user.
+ - Self-descriptive Messages: Each message includes enough information to describe how to process the message so that server can easily analyses the request.
+ - Hypermedia as the Engine of Application State (HATEOAS): It need to include links for each response so that client can discover other resources easily.
 
 ### Stateless
 It means that the necessary state to handle the request is contained within the request itself and server would not store anything related to the session. In REST, the client must include all information for the server to fulfill the request whether as a part of query params, headers or URI. Statelessness enables greater availability since the server does not have to maintain, update or communicate that session state. There is a drawback when the client need to send too much data to the server so it reduces the scope of network optimization and requires more bandwidth.
