@@ -11,7 +11,7 @@ Each HTTP request is composed of:
  - Request Header - Metadata (info) about the request represented as key-value pairs
  - Request Body - message content (resource representation in REST)
 
-<div align="center"> <img src="./../../images/http-request-image.png"> </div>
+<div align="center"> <img src="./../images/http-request-image.png"> </div>
   
   
 ### HTTP Response  
@@ -21,7 +21,7 @@ Each HTTP response is composed of:
  - Response Header - Metadata (info) about the response represented as key-value pairs
  - Response Body - message content (resource representation in REST)
 
-<div align="center"> <img src="./../../images/http-response-image.png"> </div>
+<div align="center"> <img src="./../images/http-response-image.png"> </div>
   
   
 ## HTTP Verbs
