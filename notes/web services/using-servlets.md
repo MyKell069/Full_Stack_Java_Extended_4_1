@@ -14,7 +14,7 @@ The servlet container creates the RequestDispatcher object. The `getRequestDispa
 
 <code>forward()</code> passes a request from one servlet to another resource on the server. The contents of the request and response are preserved and forwarded to the next resource which will process the data and return the response to the client.
 
-![](./images/forward.png)
+![](./../images/forward.png)
 
 
 **Example for forward() method:**
@@ -33,7 +33,7 @@ rd.forward(request,response);
 If you <code>include()</code> a servlet or JSP document, the included resource may not change the response code or HTTP headers.
 
 
-![](./images/include.png)
+![](./../images/include.png)
 
 
 **Example for include() method:**
