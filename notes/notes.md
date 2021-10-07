@@ -3,6 +3,7 @@
 ## **\*NEW\***
  - [Intro to Servlets](./web%20services/intro-to-servlets.md)
  - [Servlet Config](./web%20services/servlet-config.md)
+ - [Using Servlets](./web%20services/using-servlets.md)
  - [Front Controller Design Pattern](./web%20services/front-controller.md)
  - [Jackson Library](./misc/jackson.md)
 
@@ -43,8 +44,6 @@
 
 ## Web Services
  - [Intro to Web Services](./web%20services/intro-to-web-services.md)
- - [Servlet Configuration](./web%20services/servlet-config.md)
- - [Using Servlets](./web%20services/using-servlets.md)
  - [Intro to HTTP](./web%20services/intro-to-http.md)
  - [Client-Server Architecture](./web%20services/client-server-architecture.md)
 
