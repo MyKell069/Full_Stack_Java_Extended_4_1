@@ -57,7 +57,7 @@ The `<param-name>` and `<param-value>` used to declare the parameter name and it
 
 **ServletConfig vs ServletContext**
 
-![](./images/servlet-context-and-servlet-config.png)
+![](./../images/servlet-context-and-servlet-config.png)
 
 
 
