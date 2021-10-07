@@ -43,6 +43,8 @@
 
 ## Web Services
  - [Intro to Web Services](./web%20services/intro-to-web-services.md)
+ - [Servlet Configuration](./web%20services/servlet-config.md)
+ - [Using Servlets](./web%20services/using-servlets.md)
  - [Intro to HTTP](./web%20services/intro-to-http.md)
  - [Client-Server Architecture](./web%20services/client-server-architecture.md)
 
