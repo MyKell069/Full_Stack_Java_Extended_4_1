@@ -9,7 +9,7 @@ To create a form, you would use the `<form>` tag.
 
 # Input Element in HTML Forms 
 
-An HTML form collects information from **<input>** elements. You will specify an addition **type** attribute to indicate which field to display. Various fields can be created such as a text field, checkbox, password field, or radio button.
+An HTML form collects information from **<input>** elements. You will specify an additional **type** attribute to indicate which field to display. Various fields can be created such as a text field, checkbox, password field, or radio button.
 
 ## Text Field 
 
