@@ -150,3 +150,34 @@ There are two options for making lists in HTML - ordered or unordered lists. Ord
   <li>Third item</li>
 </ul>
 ```
+
+# HTML5
+
+HTML5 introduced a new **DOCTYPE** declaration `<!DOCTYPE html>` and the character encoding (charset) declaration `<meta charset="UTF-8">`.  The `<DOCTYPE>` declaration is used to inform the browser about the version of HTML used in the document. It is known as the Document Type Declaration (DTD). It just instructs the browser about the document type. A **character encoding** is an approach of converting bytes into characters. For validating the HTML document, a program must choose a character encoding.
+
+HTML5 also introduced features to allow us to embed audio and video files on the web page and provides the support to run JavaScript in the background.
+
+Take a look at the structure of the HTML5 file given below:
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Title of the document</title>
+  </head>
+
+  <body>
+    Content of the document......
+  </body>
+</html>
+```
+
+> **NOTE:** HTML5 uses UTF-8 as a default character encoding.
+
+> `<!DOCTYPE html>` should be in the beginning of the document before any tags.
+
+
+## Helpful Resources
+
+* [Mozilla](https://mdn.dev)
