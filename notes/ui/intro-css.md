@@ -497,7 +497,9 @@ div p {
 
 <div>
   <p>I'll match, </p>
-  <section><p> I'll match. </p></section>
+  <section>
+    <p> I'll match. </p>
+  </section>
 </div>
 <p>I'm not in a div.</p>
 
