@@ -4,7 +4,7 @@
 
 ### Elements
 
-HTML is composed of many different **elements** - these provide the structure of the document. Elements are defined within HTML files using **tags** - for example, one very common tag is the `<div>` tag. The tag is enclosed within angle brackets. Most elements have a closing tag which define the end of the element, using the backslack notation - for example, a closing "div" tag would be `</div>`. HTML elements may be *nested* within other elements, like so:
+HTML is composed of many different **elements** - these provide the structure of the document. Elements are defined within HTML files using **tags** - for example, one very common tag is the `<div>` tag. The tag is enclosed within angle brackets. Most elements have a closing tag which define the end of the element, using the backslash notation - for example, a closing "div" tag would be `</div>`. HTML elements may be *nested* within other elements, like so:
 
 ```html
 <div> text inside the div but outside the paragraph
