@@ -1,6 +1,10 @@
 # Java Full Stack Extended 4.1 Notes
 
 ## **\*NEW\***
+ - [Intro to HTML](./ui/intro-to-html.md)
+ - [HTML Forms](./ui/html-forms.md)
+ - [HTML 5](./ui/html-5.md)
+ - [CSS](./ui/intro-css.md)
  - [Intro to Servlets](./web%20services/intro-to-servlets.md)
  - [Servlet Config](./web%20services/servlet-config.md)
  - [Using Servlets](./web%20services/using-servlets.md)
