@@ -2,6 +2,11 @@
 
 JavaScript is the most commonly used **client-side** scripting language. It is a **high-level, multi-paradigm, interpreted** programming language used to create dynamic webpages. When the browser loads a webpage, the browser interprets javascript code in it and executes it.
 
+ - High-level: Abstracted away from low level systems and hardware.
+ - Interpreted: some system interprets the script and translates it to machine executable instructions - in the case of JS it is part of the browser.
+ - multi-paradigm: just means that JS doesn't fit neatly into a single type of language (imperitive, declarative, object-oriented, functional, etc.)
+ - client-side: JS used to be only run on client side, but this is no longer true with Node.js, a software package designed to make server-side javascript possible.
+
 When we say JavaScript is a client-side language, we mean that it runs in the user's web browser and not on a server. However, although JavaScript originated as a scripting language that runs in the browser, the Node.js runtime environment does allow JavaScript code to be run on servers as the backend program for an application.
 
 When we say JavaScript is a high level language, we mean that it abstracts away many implementation details that relate to computer hardware - like allocating memory or garbage collection of objects. When we say it is multi-paradigm, that means it supports many programming paradigms like procedural, object-oriented, and functional programming.
