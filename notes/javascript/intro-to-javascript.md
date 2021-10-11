@@ -1,6 +1,6 @@
 ## JavaScript
 
-JavaScript is the most commonly used **client-side** scripting language. It is a **high-level, multi-paradigm, interpreted** programming language used to create dynamic webpages. When the browser loads a webpage, the browser interprets javascript code in it and executes it.
+JavaScript is the most commonly used **client-side** scripting language. It is a **high-level, multi-paradigm, interpreted**, **weakly-typed** programming language used to create dynamic webpages. When the browser loads a webpage, the browser interprets javascript code in it and executes it.
 
  - High-level: Abstracted away from low level systems and hardware.
  - Interpreted: some system interprets the script and translates it to machine executable instructions - in the case of JS it is part of the browser.
