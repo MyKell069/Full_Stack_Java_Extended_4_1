@@ -1,15 +1,7 @@
 # Java Full Stack Extended 4.1 Notes
 
 ## **\*NEW\***
- - [Intro to HTML](./ui/intro-to-html.md)
- - [HTML Forms](./ui/html-forms.md)
- - [HTML 5](./ui/html-5.md)
- - [CSS](./ui/intro-css.md)
- - [Intro to Servlets](./web%20services/intro-to-servlets.md)
- - [Servlet Config](./web%20services/servlet-config.md)
- - [Using Servlets](./web%20services/using-servlets.md)
- - [Front Controller Design Pattern](./web%20services/front-controller.md)
- - [Jackson Library](./misc/jackson.md)
+ - [Intro to JavaScript]()
 
 ## Object Oriented Programming
  - [Object Oriented Programming](./java/object-oriented-programming.md)
@@ -34,6 +26,12 @@
  - [Java Serialization](./java/java-serialization.md)
  - [Java Threads](./java/java-threads.md)
 
+## UI
+ - [Intro to HTML](./ui/intro-to-html.md)
+ - [HTML Forms](./ui/html-forms.md)
+ - [HTML 5](./ui/html-5.md)
+ - [CSS](./ui/intro-css.md)
+
 ## SQL
  - [Intro to SQL](./sql/intro-to-sql.md)
  - [Relational Database Management Systems (RDBMS)](./sql/intro-to-rdbms.md)
@@ -50,6 +48,9 @@
  - [Intro to Web Services](./web%20services/intro-to-web-services.md)
  - [Intro to HTTP](./web%20services/intro-to-http.md)
  - [Client-Server Architecture](./web%20services/client-server-architecture.md)
+ - [Intro to Servlets](./web%20services/intro-to-servlets.md)
+ - [Servlet Config](./web%20services/servlet-config.md)
+ - [Using Servlets](./web%20services/using-servlets.md)
 
 ## Amazon Web Services
  - [AWS Overview](./aws/intro-aws.md)
@@ -69,3 +70,5 @@
  - [Vocabulary WIP](./misc/vocabulary.md)
  - [JSON](./misc/intro-to-json.md)
  - [Design Patterns](./misc/design-patterns.md)
+ - [Front Controller Design Pattern](./web%20services/front-controller.md)
+ - [Jackson Library](./misc/jackson.md)
