@@ -40,6 +40,17 @@
  - [HTML 5](./ui/html-5.md)
  - [CSS](./ui/intro-css.md)
 
+## JavaScript
+ - [Intro to JavaScript](./javascript/intro-to-javascript.md)
+ - [JavaScript Types & Coercion](./javascript/js-types-coercion.md)
+ - [JavaScript Fundamentals](./javascript/javascript-fundamentals.md)
+ - [More JavaScript](./javascript/more-javascript.md)
+ - [JavaScript Classes](./javascript/javascript-classes.md)
+ - [JavaScript ES6](./javascript/javascript-es6.md)
+ - [Advanced JavaScript Syntax](./javascript/js-advanced-syntax.md)
+ - [AJAX & Fetch](./javascript/ajax-fetch.md)
+ - [Document Object Model (DOM)](./javascript/javascript-dom.md)
+
 ## SQL
  - [Intro to SQL](./sql/intro-to-sql.md)
  - [Relational Database Management Systems (RDBMS)](./sql/intro-to-rdbms.md)
