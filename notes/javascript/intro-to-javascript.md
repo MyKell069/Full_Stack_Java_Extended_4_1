@@ -10,7 +10,7 @@ ECMAScript is the official name for JavaScript. It is used for language specific
 
 In HTML, JavaScript code is written inside the `<script> `and `</script>` tags. You can place any number of scripts in an HTML document. Scripts can be placed in the `<body>`, or in the `<head>` section of an HTML page, or in both.
 
-```
+```html
 <script>
  JavaScript code
 </script>
