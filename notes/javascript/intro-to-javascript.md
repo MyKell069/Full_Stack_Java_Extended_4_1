@@ -33,7 +33,29 @@ JavaScript is case sensitive. Every statement in JavaScript is separated using a
 
 **JavaScript Literals**: Literals are the fixed values, it can be numbers, strings, boolean values, etc. The number type stores integer, float, and hexadecimal value. Strings are text, enclosed within single or double quotes (' or "). If the number is enclosed with single or double quotes, then it is considered as a string.
 
-**JavaScript Keywords**: Keywords are tokens that have special meaning in JavaScript. The keywords supported by JavaScript are break, case, catch, continue, do, else, finally, for, function, if, in, new, return, switch, this, throw, try, typeof, var, void, while, etc.
+**JavaScript Keywords**: Keywords are tokens that have special meaning in JavaScript. The keywords supported by JavaScript are 
+ - break
+ - case
+ - catch
+ - continue
+ - do
+ - else
+ - finally
+ - for
+ - function
+ - if
+ - in
+ - new
+ - return
+ - switch
+ - this
+ - throw
+ - try
+ - typeof
+ - var
+ - void
+ - while
+ - AND MORE!
 
 ## JavaScript Variables
 
