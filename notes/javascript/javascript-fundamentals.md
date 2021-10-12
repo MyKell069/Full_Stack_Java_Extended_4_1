@@ -492,7 +492,7 @@ Example:
 
 ## Callback Functions
 
-A callback function is a function that gets executed after another function completes the execution. It helps us develop asynchronous JavaScript code and keeps us safe from problems and errors. JavaScript runs the code in sequential order (from top to down). If there is a case that code runs after some other execution, which is not happening in a sequence is called **asynchronous programming**.All functions in JavaScript are objects and a JavaScript function can be passed another function as an argument. 
+A callback function is a function that gets executed after another function completes it's own execution. This can be useful for asynchronous programming. All functions in JavaScript are objects and thus a function can be given another function as an argument. In this way we pass a callback function to our function.
 
 A callback function can be created by using the `callback` keyword as the last parameter.
 
