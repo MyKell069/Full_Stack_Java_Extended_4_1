@@ -50,7 +50,7 @@ Example:
 ```javascript
 var a = 51;         // integer
 var b = 15.5;       // floating-point number
-var c = 1.5e-4;    // exponential notation, equivalent to 0.0001.5
+var c = 1.5e-4;    // exponential notation, equivalent to 0.00015
 var d = 1.5e+4;    // exponential notation, equivalent to 1.5e4 or 15000
 var h = -6/0 // results infinity
 var j = ("2" / 2); //results NaN
