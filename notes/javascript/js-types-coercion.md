@@ -58,7 +58,7 @@ var j = ("2" / 2); //results NaN
 
 ### BigInt
 
-In JavaScript, the “number” type cannot represent integer values larger than 253 or less than -253 for negatives. BigInt type used to represent integers of arbitrary length. A BigInt is created by appending n to the end of an integer literal.
+In JavaScript, the “number” type cannot represent integer values larger than 2^53 or less than -2^53 for negatives. BigInt type used to represent integers of arbitrary length. A BigInt is created by appending n to the end of an integer literal.
 
 Example:
 ```javascript
