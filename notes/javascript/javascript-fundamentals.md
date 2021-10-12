@@ -132,7 +132,7 @@ An array is a variable that allows the programmer to store more than one value. 
 
 ### Creating an Array
 In JavaScript, arrays can be created using square brackets, using what is known as an array literal. They can also be created using the ```new``` keyword, but it is best practice to use array literals.
-```
+```html
 // array literal
 let cheeses = ['bleu', 'cheddar', 'parmesan', 'brie']
 // ["bleu", "cheddar", "parmesan", "brie"]
@@ -146,7 +146,7 @@ Both methods create an array object based on the Array Prototype.
 ### Array Structure
 All array objects share a common structure. Each array has a `length` field that stores the current length of the array. In addition, the prototype of an array is `[]`, giving each array access to certain functions that we will cover later.
 
-```
+```html
 let array = [1, 2, 3]
 console.log(array.length) // 3
 console.log(array.__proto__) // []
@@ -156,13 +156,13 @@ console.log(array.__proto__) // []
 
 Arrays in JavaScript are **zero-indexed**, meaning that the first element in an array is represented by the key `0`. In order to access our array, we can use Array Notation:
 
-```
+```html
 let cheeses = ['bleu', 'cheddar', 'parmesan', 'brie']
 console.log(cheeses[0]) // bleu
 ```
 Here, we gave the zero-index to obtain the first element in the array, which is the string `bleu`. The string `cheddar` would be represented by the key `1`, `parmesan` would be `2`, and `brie` would be `3`. The length of the array is `4`. The last key of an array is normally `array.length - 1`, however, be aware that there might not be data at this location.
 
-```
+```html
 //access the last element of the array
 console.log(cheeses[cheeses.length-1])
 ```
@@ -171,7 +171,7 @@ console.log(cheeses[cheeses.length-1])
 
 You can also assign a different value by using the index and an assignment operator.
 
-```
+```html
 cheeses[2] = 'american' // changes parmesan to american
 ```
 
@@ -179,7 +179,7 @@ cheeses[2] = 'american' // changes parmesan to american
 
 **Adding an Item** - To add an item to an array you can specify an index
 
-```
+```html
 // create an empty array
 let arr = []
 console.log(arr.length) // 0
@@ -194,7 +194,7 @@ console.log(arr) // [ "duck", <2 empty slots>, "chicken"]
 ```
 In the above example, we first added the string `duck` to an empty array, changing the length of that array from 1 to 0. Note however, that this can be dangerous, as we can specify any index we wish. We then added the string `chicken` at index 3, changing the length of our array to 4, with two empty indexes. One way around this would be to use the `length` field to determine what the next index should be.
 
-```
+```html
 arr[arr.length] = 'pigeon'
 console.log(arr.length) // 5
 console.log(arr) // [ "duck", <2 empty slots>, "chicken", "pigeon"]
@@ -202,7 +202,7 @@ console.log(arr) // [ "duck", <2 empty slots>, "chicken", "pigeon"]
 
 An easier and safer way to add a new element to an array is the `push()` method inherited from the Array Prototype.
 
-```
+```html
 let students = []
 students.push('Timothy')
 students.push('Zach')
@@ -212,7 +212,7 @@ console.log(students) // ["Timothy", "Zach"]
 
 **Removing an Item** - Removing an item from an array in JavaScript can result in unexpected behavior if done incorrectly. When removing a key from an object, you might use the `delete` keyword. When you do this with an array, the length field will not be updated, resulting in an empty slot.
 
-```
+```html
 let arr = [1, 2, 3]
 // [1, 2, 3]
 console.log(arr.length) // 3
@@ -225,7 +225,7 @@ In order to remove elements we turn to the methods `splice()`, `pop()`, and `shi
 
 **NOTE**: In most browers, if you do not specify the number of elements to remove, it will remove all elements starting at the index specified.
 
-```
+```html
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 arr.splice(2, 1) // returns [3]
 console.log(arr)
@@ -237,7 +237,7 @@ console.log(arr)
 
 The `pop()` method removes and returns the last element in an array and the `shift()` method removes and returns the first element in an array.
 
-```
+```html
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 arr.pop() // returns [9]
 console.log(arr)
@@ -252,7 +252,7 @@ console.log(arr)
 ### Iterating Through an Array
 
 You can use a for loop to iterate through an array in JavaScript:
-```
+```html
 let list = [1, 2, 3, 4, 5];
 
 // standard for
@@ -262,7 +262,7 @@ for(let i = 0; i < list.length; i++){
 ```
 
 Arrays are iterable, and so you can use a `for-in` or `for-of` loop to iterate through an array. `for-in` will iterate through the keys of an array. `for-of` will iterate through the values of the array.
-```
+```html
 // for-in
 for(key in list) {
     // an enhanced for-in loop in JS iterates through
@@ -279,7 +279,7 @@ for(element of list) {
 ```
 
 There is also the `forEach()` method on the Array Prototype. This function is a functional array method that takes in a callback function and runs that function for each element in the array. The `forEach()` method returns undefined.
-```
+```html
 // forEach()
 list.forEach(
     function(value, index) {
@@ -292,7 +292,7 @@ The Array Prototype includes many useful methods. Above, we covered the `splice(
 #### sort()
 The `sort()` method will sort an array "in-place". This means that the array will be modified and the original array will be sorted. The `sort()` method can take in a function that will compare objects and sort them to your preference. If no callback function is provided, each element is converted to a string and sorted in ascending order.
 
-```
+```html
 let list = ['tiger', 'panda', 'giraffe', 'cat', 'owl', 'bird']
 list.sort()
 // this will sort alphabetically
@@ -307,7 +307,7 @@ console.log(list)
 
 #### indexOf() & lastIndexOf()
 The `indexOf()` method returns the first index at which an element is present. `lastIndexOf()` returns the last index at which an element is present. If the element can't be found in the list, both will return the value `-1`.
-```
+```html
 let list = [1, 1, 2, 3, 3, 5, 6, 1]
 list.indexOf(3) // returns 3
 list.lastIndexOf(3) // returns 4
@@ -319,7 +319,7 @@ list.lastIndexOf('cat') // returns -1
 #### find() & findIndex()
 The `find()` method returns the first element in an array for which the callback function returns a truthy value. The `findIndex()` method does the same but returns that element's index. For example, if I were to try to find the first string in an array that had a length greater than or equal to 7, I could write a function that tested for that and pass it to the `find()` method:
 
-```
+```html
 let words = ['the', 'small', 'fox', 'ate', 'a', 'largish', 'breakfast', 'and', 'slept']
 words.find(function(word) {return word.length >= 7}) //returns 'largish'
 words.findIndex(function(word) {return word.length >= 7}) //returns 5
@@ -328,7 +328,7 @@ words.findIndex(function(word) {return word.length >= 7}) //returns 5
 #### filter()
 The `filter()` function takes a callback function and creates a new array that is the made up of elements for which the callback function returns a truthy value. This can be useful in situations where you wish to perform an operation on only a subset of elements in an array. The original array is not modified. For example, I may wish to get only even numbers from an array:
 
-```
+```html
 let list = [4, 67, 34, 55, 79, 12]
 let evens = list.filter(function(n) { return n%2 === 0 })
 console.log(evens)
@@ -338,7 +338,7 @@ console.log(evens)
 #### map()
 The `map()` function takes a callback function and creates a new array that is the result of calling the function on each element of the array. The original array is not modified. For example, if I were to have an array of numbers and I wished to have an array of the squares of those numbers, I could use the `map()` function to accomplish this:
 
-```
+```html
 let numbers = [1, 2, 3, 4, 5, 6, 7]
 let squares = numbers.map(function(n) {return n*n})
 console.log(squares)
@@ -348,7 +348,7 @@ console.log(squares)
 #### reduce()
 The `reduce()` function takes a callback function and returns a single value that is the result of calling the function for each value in the array. For example, if we wished to have the sum of each element in an array, we could do the following:
 
-```
+```html
 let numbers = [1, 2, 3, 4, 5, 6, 7]
 let result = numbers.reduce(function(previousValue, currentValue) {return previousValue + currentValue})
 console.log(result) // 28
@@ -357,7 +357,7 @@ console.log(result) // 28
 # JavaScript Functions
 
 A function is a group of reusable code which can be called anywhere in the program. A JavaScript function is defined using the `function` keyword. The syntax for creating a function:
-```
+```html
 function name(parameter1, parameter2, parameter3) {
   // code to be executed
 }
