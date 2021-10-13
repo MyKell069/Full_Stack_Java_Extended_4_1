@@ -1,8 +1,5 @@
 # Transactions
 
-
-# Transactions
-
 Any amount of DML statements before a COMMIT statement is considered a **transaction**. After the COMMIT is done, the transaction should follow certain properties. Transactions are considered to be logical units of work - for example, transferring money from Person A's bank account to Person B's account. You should think about how to logically group your DML operations into transactions when writing code.
 
 The properties of transactions should be as follows:
