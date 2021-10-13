@@ -10,6 +10,7 @@
  - [Advanced JavaScript Syntax](./javascript/js-advanced-syntax.md)
  - [AJAX & Fetch](./javascript/ajax-fetch.md)
  - [Document Object Model (DOM)](./javascript/javascript-dom.md)
+ - [SQL Transactions](./sql/sql-transactions.md)
 
 ## Object Oriented Programming
  - [Object Oriented Programming](./java/object-oriented-programming.md)
@@ -57,6 +58,7 @@
    - [DDL](./sql/ddl-dql-dml.md#ddl)
    - [DQL](./sql/ddl-dql-dml.md#dql)
    - [DML](./sql/ddl-dql-dml.md#dml)
+ - [SQL Transactions](./sql/sql-transactions.md)
  - [Defining Schema](./sql/defining-schema.md)
  - [JDBC](./sql/intro-to-jdbc.md)
  - [Indexes](./sql/sql-indexes.md)
