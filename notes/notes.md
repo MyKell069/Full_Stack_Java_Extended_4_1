@@ -1,15 +1,6 @@
 # Java Full Stack Extended 4.1 Notes
 
 ## **\*NEW\***
- - [Intro to JavaScript](./javascript/intro-to-javascript.md)
- - [JavaScript Types & Coercion](./javascript/js-types-coercion.md)
- - [JavaScript Fundamentals](./javascript/javascript-fundamentals.md)
- - [More JavaScript](./javascript/more-javascript.md)
- - [JavaScript Classes](./javascript/javascript-classes.md)
- - [JavaScript ES6](./javascript/javascript-es6.md)
- - [Advanced JavaScript Syntax](./javascript/js-advanced-syntax.md)
- - [AJAX & Fetch](./javascript/ajax-fetch.md)
- - [Document Object Model (DOM)](./javascript/javascript-dom.md)
  - [SQL Transactions](./sql/sql-transactions.md)
 
 ## Object Oriented Programming
