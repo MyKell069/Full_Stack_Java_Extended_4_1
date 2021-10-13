@@ -1,4 +1,6 @@
- - What new features did ES6 introduce? 
+# QC Questions on JavaScript
+
+- What new features did ES6 introduce? 
  - What is the difference between var, let, and const keywords? 
  - Give the syntax for template literals / string interpolation 
  - What’s the difference between a normal function declaration and an arrow function? 
