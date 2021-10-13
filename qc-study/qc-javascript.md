@@ -12,3 +12,11 @@
  - Explain the async/await keywords. Why is it preferred to use this instead of .then() methods? 
  - What is a generator function? What’s the point of the yield keyword? 
  - What built-in data structures does JavaScript provide? 
+
+ - What is the DOM? How is it represented as a data structure? What object in a browser environment allows us to interact with the DOM? 
+ - List some ways of querying the DOM for elements 
+ - How would you insert a new element into the DOM? 
+ - What are event listeners? What are some events we can listen for? What are some different ways of setting event listeners? 
+ - What is bubbling and capturing and what is the difference? 
+ - What are some methods on the event object and what do they do? 
+ - How would you submit a form using JS? 
