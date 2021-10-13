@@ -54,9 +54,12 @@ Transaction Control Language statements are utilized to manage transactions with
 
 The general flow of using TCL could be as follows:
 
-```
+```sql
 [Many DML Operations]
 SAVEPOINT A
 [Many DML Operations]
+# if something goes wrong
 ROLLBACK TO A
+# if nothing went wrong
+COMMIT
 ```
