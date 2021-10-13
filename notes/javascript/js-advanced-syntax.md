@@ -158,7 +158,7 @@ console.log( title );     //output: David Copperfield
 *  Variables with default values are mapped to the values from Array. If no matching index element found in array, default values are initialized.
 
 **Example:**
-```
+```javascript
 let arr =[1,2]
 const [ a = 3, b, c = 5] =arr; 
 console.log(`a =  ${a}, b = ${b}, c = ${c} `);    //output: a =  1, b = 2, c = 5 
