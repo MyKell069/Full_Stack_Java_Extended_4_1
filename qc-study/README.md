@@ -15,8 +15,8 @@ These files are full of questions you are likely to be asked as part of QC. You 
 ### SQL/JDBC
  - [SQL](./qc-sql.md)
 
-
 ### Frontend/UI
+ - [HTTP](./qc-http.md)\*
  - [HTML](./qc-html.md)\*
  - [CSS](./qc-css.md)\*
  - [JavaScript](./qc-javascript.md)\*
