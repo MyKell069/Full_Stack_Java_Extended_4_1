@@ -12,7 +12,6 @@
  - Explain the async/await keywords. Why is it preferred to use this instead of .then() methods? 
  - What is a generator function? What’s the point of the yield keyword? 
  - What built-in data structures does JavaScript provide? 
-
  - What is the DOM? How is it represented as a data structure? What object in a browser environment allows us to interact with the DOM? 
  - List some ways of querying the DOM for elements 
  - How would you insert a new element into the DOM? 
