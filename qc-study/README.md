@@ -3,6 +3,15 @@ These files are full of questions you are likely to be asked as part of QC. You 
 
  - [PDF - "How to Do Well in QC"](./how-to-do-well-in-qc.pdf)
 
+## Newest Topics Since Last QC:
+ - [Hibernate/ORM](./qc-hibernate.md)
+ - [REST](./qc-rest.md)
+ - [HTTP](./qc-http.md)
+ - [HTML](./qc-html.md)
+ - [CSS](./qc-css.md)
+ - [JavaScript](./qc-javascript.md)
+ - [AJAX](./qc-ajax.md)
+
 
 ### OOP:
  - [OOP](./qc-oop.md)
@@ -12,20 +21,21 @@ These files are full of questions you are likely to be asked as part of QC. You 
  - [Advanced Java](./qc-java-advanced.md)
  - [Servlets](./qc-servlets.md)
 
-### SQL/JDBC
+### SQL/JDBC/ORM
  - [SQL](./qc-sql.md)
+ - [Hibernate/ORM](./qc-hibernate.md)
 
 ### Frontend/UI
- - [HTTP](./qc-http.md)\*
- - [HTML](./qc-html.md)\*
- - [CSS](./qc-css.md)\*
- - [JavaScript](./qc-javascript.md)\*
- - [AJAX](./qc-ajax.md)\*
+ - [HTTP](./qc-http.md)
+ - [HTML](./qc-html.md)
+ - [CSS](./qc-css.md)
+ - [JavaScript](./qc-javascript.md)
+ - [AJAX](./qc-ajax.md)
 
 
 ### Web Services
- - [REST](./qc-rest.md)\*
+ - [REST](./qc-rest.md)
 
 ### More to come...
 
-\* = new items
+
