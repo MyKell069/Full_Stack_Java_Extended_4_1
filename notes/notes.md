@@ -2,6 +2,9 @@
 
 ## **\*NEW\***
  - [SQL Transactions](./sql/sql-transactions.md)
+ - [Intro to Hibernate & ORMs](./misc/hibernate.md)
+ - [Hibernate Configuration](./misc/hibernate-config.md)
+ - [Executing Statements With Hibernate](./misc/hibernate-querying.md)
 
 ## Object Oriented Programming
  - [Object Oriented Programming](./java/object-oriented-programming.md)
