@@ -1,3 +1,5 @@
+# Querying and Executing Statements with Hibernate
+
 ## Criteria API
 
 Hibernate [Criteria API](https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#criteria) provides an object oriented approach for querying a database and getting results. In hibernate, we can pull the data from the database using session methods; **HQL**, **JPQL**, **Native SQL**, or the **Criteria API**.
