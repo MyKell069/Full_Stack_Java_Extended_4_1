@@ -75,6 +75,30 @@ Some of the **advantages** of Hibernate are:
 
 * Hibernate supports **dual-level Caching** mechanism. Through the caching concept, Hibernate retains the objects in the cache to reduce repeated hits to the database. This feature makes Hibernate highly scalable and optimizes the application’s performance.
 
+# Hibernate architecture 
+
+Hibernate is a collection of various constituent components that work together to communicate with the database to ensure data integrity and consistency.
+
+The following diagram illustrates the main building blocks of **Hibernate architecture**:
+
+![](./../images/hib-arch.png)
+
+To persist data in the database, the application communicates with the Hibernate layer that contains the following core classes and interfaces of the Hibernate API:
+
+* Configuration Class
+* SessionFactory Interface
+* Session Interface
+* Transaction Interface
+* Query Interfaces
+
+**Persistent objects:** These are instances of POJO classes, that each represent a row in a table in the database. These objects get translated to a row in the related table in the database by the Hibernate. They are configured in mapping files (`YourClass.hbm.xml`) or annotated with `@Entity` annotation.
+
+
+The following figure shows the working of the hibernate classes and interfaces :
+
+![](./../images/workflow.png)
+
+
 ## Object States in Hibernate 
 
 The three Object States in Hibernate are:
@@ -120,3 +144,6 @@ An object of a persistent class (a class mapped to a relational database table) 
 * [Difference Between Hibernate and JPA](https://www.educba.com/hibernate-vs-jpa/)
 * [Hibernate object states](https://docs.jboss.org/hibernate/core/3.3/reference/en/html/objectstate.html#objectstate-overview)
 * [Modifying persistent state](https://docs.jboss.org/hibernate/orm/6.0/userguide/html_single/Hibernate_User_Guide.html#pc-managed-state)
+* [Architecture](https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#architecture)
+* [Further Reading on Hibernate Interfaces](https://www.geeksforgeeks.org/hibernate-architecture/)
+
