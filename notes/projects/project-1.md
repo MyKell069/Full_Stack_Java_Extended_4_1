@@ -41,7 +41,7 @@ These are user stories to describe the airline ticketing kiosk app. If you are n
 * As a user, I can cancel my ticket.
 * As an administrator, I can schedule a new flight.
 * As an administrator, I can cancel a flight.
-* As an administrator, I can see all users with tickets for a flight.
+* As an administrator, I can view a flight manifest (flight details + passenger list)
 
 ### Bonus Stories
 * As an administrator, I can cancel a ticket on any flight.
