@@ -20,11 +20,13 @@ CriteriaQuery<Student> query = builder.createQuery(Student.class);
 The `CriteriaQuery` interface makes it easy to selectively fetch the data based on conditions in the select query. The JPA `CriteriaBuilder` class provides several methods that return **Expression** objects, which can used as conditions.
 
 ```java
-// The root type indicates that the query is selecting from the tables mapped by the Student class. In this case the type matches the CriteriaQuery type, but that is not always the case.
+// The root type indicates that the query is selecting from the tables mapped by the Student class. 
+//In this case the type matches the CriteriaQuery type, but that is not always the case.
 Root<Student> root = query.from(Student.class);
 query.select(root)
 		.where(builder.equal( root.get("name"), "Adam") );
-		// .where(builder.equal( root.get(Student_.name), "Adam") ); is also acceptable, using the metamodel syntax introduced in JPA 2.0
+		// .where(builder.equal( root.get(Student_.name), "Adam") ); is also acceptable, 
+		//using the metamodel syntax introduced in JPA 2.0
 List<Student> studentsNamedAdam = session.createQuery(query).getResultList();
 ```
 
