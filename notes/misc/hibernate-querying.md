@@ -98,7 +98,7 @@ The `addJoin()` method used to fetch the data from associated table using tables
 
 ```java
 Query<Student> query = session.createNativeQuery("SELECT s.id, s.name, a.* FROM student s JOIN address a ON s.id = a.stud_id")
-		.addEntity("e", Student.class)
+		.addEntity("s", Student.class)
 		.addJoin("a", "student.address"); 
 ```
 
