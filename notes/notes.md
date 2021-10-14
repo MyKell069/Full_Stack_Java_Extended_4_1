@@ -59,6 +59,11 @@
  - [Relations](./sql/sql-relations.md)
  - [Constraints](./sql/sql-constraints.md)
 
+## ORMs
+ - [Intro to Hibernate & ORMs](./misc/hibernate.md)
+ - [Hibernate Configuration](./misc/hibernate-config.md)
+ - [Executing Statements With Hibernate](./misc/hibernate-querying.md)
+
 ## Web Services
  - [Intro to Web Services](./web%20services/intro-to-web-services.md)
  - [Intro to HTTP](./web%20services/intro-to-http.md)
