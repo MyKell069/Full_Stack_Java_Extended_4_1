@@ -22,7 +22,7 @@ To solve the impedance mismatch, we use an **ORM** tool that converts the **data
 
 [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping) stands for **O**bject-**R**elational **M**apping, uses objects to connect the Object-Oriented programming language and the database systems, which facilitates the SQL to work along with the object-oriented programming concepts. 
 
-![orm](./../images/orm.png)
+![orm](./../images/orm.PNG)
 
 
 ### Benefits of ORM
@@ -38,6 +38,85 @@ To solve the impedance mismatch, we use an **ORM** tool that converts the **data
 
 There are lots of ORM tools available such as Hibernate, JPA, Active JPA, iBATIS, IBM Pure Query, etc.
 
-## References
 
+
+## JPA
+
+The [Java Persistence API](https://en.wikipedia.org/wiki/Java_Persistence_API)(JPA) is a standard API for accessing, persisting and managing data between Java objects/classes and a relational database. 
+
+It is defined in the **javax.persistence** package. It uses **Java Persistence Query Language** (JPQL), which is an object-oriented query language to perform database operations. It uses the **EntityManager** interface to create, read, and delete operations for instances of mapped entity classes.
+
+
+## Hibernate
+
+[Hibernate](https://en.wikipedia.org/wiki/Hibernate_(framework)) is an object-relational mapping tool for Java programming language. It is an open-source persistent framework introduced by **Gavin King** in 2001.  It is a flexible and powerful ORM solution to map Java classes to database tables. Hibernate is an **implementation of JPA**, so it follows the common standards provided by the JPA. Historically Hibernate provided its own extensions to JPA interfaces and syntax, but has started to return to a more JPA-friendly syntax. Because of this, you will find significant differences between older versions of Hibernate and newer versions, starting around Hibernate 5.2.
+
+It is defined in the **org.hibernate** package. It uses **Hibernate Query Language** (HQL), which is very similar to JPQL. Hibernate's **Session** interface is an extension to JPA's **EntityManager** interface, and so can create, read, and delete operations for instances of mapped entity classes. 
+
+
+Since we have used **JDBC** (Java Database Connectivity) for a long time, we know that JDBC provides a Java API for accessing relational databases from Java programs, to execute SQL statements. 
+
+**Drawbacks  in the JDBC approach:**
+* If we use JDBC in large applications, it results in significant complexity.
+* If we need to change our database (for example, MySQL to Oracle, we might have to rewrite many SQL queries to satisfy differences in SQL syntax between the two databases 
+* We need to convert database ResultSet objects to Java Objects manually, and vice-versa. If the schema changes, we need to change the DDL, the POJO classes, *and* the conversions between the two
+* The developer requires database-specific knowledge to write queries.
+* The states of Java Objects are fetched and managed by developers. In other words, changes to data by the application need to be saved to the database manually
+
+Hibernate is used to overcome these drawbacks of JDBC.
+
+Some of the **advantages** of Hibernate are:
+
+* Hibernate’s **transparent persistence** ensures the automatic connection between the application’s objects with the database tables. It reduces the lines of connection code. 
+
+* Hibernate is **database independent**. It can be used to connect with any database like Oracle, MySQL, Sybase, etc. Changing the SQL sent to a database is as simple as changing the *database dialect* in the configuration file.
+
+* Hibernate framework provides an **abstraction** -  Many common tasks are implemented for us internally, like establishing a connection with the database, writing a query to perform CRUD operations, etc. 
+
+* Hibernate supports **dual-level Caching** mechanism. Through the caching concept, Hibernate retains the objects in the cache to reduce repeated hits to the database. This feature makes Hibernate highly scalable and optimizes the application’s performance.
+
+## Object States in Hibernate 
+
+The three Object States in Hibernate are:
+
+* **Transient State**
+* **Persistent State**
+* **Detached State**
+
+An object of a persistent class (a class mapped to a relational database table) can be in one of three different states. These states are defined in relation to a **persistence context** (Session object). 
+
+### Transisent
+
+* When an object is created using the `new` operator and not yet associated with a Hibernate Session, then the object state is transient.
+* It doesn't represent a row in the database. 
+* Transient instances are garbage collected if the application does not hold a reference anymore.
+
+
+### Persistent
+
+* The object state is persistent when it is associated with the hibernate session.
+* The Persistent object represents a row in the database and has an identifier value. 
+* Transient instances can be made persistent by associating them with a Session.
+* The `save()`, `persist()` and `saveOrUpdate()` methods are used to associate a transient object with a session and make them persistent. 
+* Hibernate detects the changes made to persistent objects and synchronizes the state with the database. 
+* Whenever we get the data from the database using `get()` or `load()` methods, the data will be in the persistent state.
+
+### Detached
+
+* When a persistent object has its session closed, then it becomes detached. 
+* Any changes made to detached objects will not be saved automatically to the database. 
+* When a detached instance reattached with a new Session at a later point in time, it makes the object persistent again.
+* The Session class' `close()`, `evict(Object)`, and `clear()` methods are used to move a persistent object to the detached state.
+* The Session class' `update(Object)` and `merge(Object)` methods can used to reattach detached objects to a session. 
+
+**Object states:**
+
+![](./../images/objectstates.png)
+
+
+## References
 * [What is Object/Relational Mapping?](https://hibernate.org/orm/what-is-an-orm/)
+* [Hibernate](https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html)
+* [Difference Between Hibernate and JPA](https://www.educba.com/hibernate-vs-jpa/)
+* [Hibernate object states](https://docs.jboss.org/hibernate/core/3.3/reference/en/html/objectstate.html#objectstate-overview)
+* [Modifying persistent state](https://docs.jboss.org/hibernate/orm/6.0/userguide/html_single/Hibernate_User_Guide.html#pc-managed-state)
