@@ -2,15 +2,31 @@
 
 Any amount of DML statements before a COMMIT statement is considered a **transaction**. After the COMMIT is done, the transaction should follow certain properties. Transactions are considered to be logical units of work - for example, transferring money from Person A's bank account to Person B's account. You should think about how to logically group your DML operations into transactions when writing code.
 
-The properties of transactions should be as follows:
+## ACID Properties
 
-* ATOMIC - "All or nothing", if any statement on the transaction fails, the whole transaction fails.
-* CONSISTENT - If the database was in a consistent state before the transaction, it should be after it.
-* ISOLATED - One transaction shouldn't affect other transactions. It can be applied in different levels.
-* DURABLE - Persisted data should be saved permanently, even in the case of power loss or catastrophic software or hardware failure.
-  * Some RDBMS's have different approaches, even to recover from catastrophes (Oracle has special logs [Bitacora]).
+A Transaction represents a single unit of work performed in sequence against the database. In other words, a transaction is a collection of read/write operations which succeeds only if all contained operations succeed. A transaction has 4 properties termed as [ACID](https://en.wikipedia.org/wiki/ACID) Properties:
 
-You can remember the properties of a transaction using the ACID acronym.
+* **A**tomicity
+* **C**onsistency
+* **I**solation
+* **D**urability
+
+### Atomicity
+
+Transactions are often composed of multiple statements. Atomicity guarantees that each transaction is treated as a single "unit", which either succeeds completely, or fails completely: if any of the statements constituting a transaction fails to complete, the entire transaction fails and the database is left unchanged.
+
+### Consistency
+
+Consistency means that constraints are enforced for every committed transaction. That indicates that all Keys, Data types, Checks, and Triggers are successful and no constraint violation is triggered. Any transaction should bring the database from a valid state to another valid state.
+
+### Isolation
+
+If two transactions are executing concurrently and working on the same data, then one transaction should not disturb the other transaction. Isolation guarantees that concurrently running transactions should not affect each other.
+
+### Durability 
+
+Durability means that once a transaction is complete, it guarantees that all of the changes are recorded in the database. If our system is suddenly affected by a system crash or a power outage, then all unfinished committed transactions may be replayed.
+
 
 ### Isolation Levels
 
