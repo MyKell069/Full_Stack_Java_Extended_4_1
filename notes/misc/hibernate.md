@@ -22,7 +22,7 @@ To solve the impedance mismatch, we use an **ORM** tool that converts the **data
 
 [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping) stands for **O**bject-**R**elational **M**apping, uses objects to connect the Object-Oriented programming language and the database systems, which facilitates the SQL to work along with the object-oriented programming concepts. 
 
-![orm](./../images/orm.PNG)
+![orm](./../images/orm.png)
 
 
 ### Benefits of ORM
