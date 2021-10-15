@@ -5,6 +5,7 @@
  - [Intro to Hibernate & ORMs](./misc/hibernate.md)
  - [Hibernate Configuration](./misc/hibernate-config.md)
  - [Executing Statements With Hibernate](./misc/hibernate-querying.md)
+ - [JUnit Testing](./java/junit-testing.md)
 
 ## Object Oriented Programming
  - [Object Oriented Programming](./java/object-oriented-programming.md)
@@ -28,6 +29,7 @@
  - [Collections Framework](./java/java-collections.md)
  - [Java Serialization](./java/java-serialization.md)
  - [Java Threads](./java/java-threads.md)
+ - [JUnit Testing](./java/junit-testing.md)
 
 ## UI
  - [Intro to HTML](./ui/intro-to-html.md)
