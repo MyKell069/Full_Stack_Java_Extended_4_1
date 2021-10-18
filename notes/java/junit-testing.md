@@ -1,4 +1,4 @@
-# Module - JUnit
+# JUnit
 
 Writing application code is just one aspect of application development. How do we ensure that code we write works as we intend it to, without negative side-effects, and meets our functional and non-functional product requirements? The answer is to *test* the code we wrote.
 
