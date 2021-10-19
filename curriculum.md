@@ -22,6 +22,12 @@ We will use the following software during training, which will need to be instal
 ## Terminal Applications
  - [Terminus](https://termius.com/windows)
 
+## Other Techs
+These are items that are not officially part of our curriculum but I would like to introduce if we have time.
+ - Javalin - Clean and easy abstraction for servlets
+ - Axios - Alternative to fetch and AJAX
+ - Jacoco - Unit test coverage reporting tool
+
 ## Frameworks, Libraries, & Technologies
 
  - Java
