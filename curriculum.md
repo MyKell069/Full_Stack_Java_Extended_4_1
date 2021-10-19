@@ -20,7 +20,7 @@ We will use the following software during training, which will need to be instal
 - [Apache Tomcat 8](https://tomcat.apache.org/download-80.cgi) - Webserver (We want version 8 core)
 
 ## Terminal Applications
-[Terminus](https://termius.com/windows)
+ - [Terminus](https://termius.com/windows)
 
 ## Frameworks, Libraries, & Technologies
 
