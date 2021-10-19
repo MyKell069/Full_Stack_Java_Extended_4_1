@@ -1,12 +1,7 @@
 # Java Full Stack Extended 4.1 Notes
 
 ## **\*NEW\***
- - [SQL Transactions](./sql/sql-transactions.md)
- - [Intro to Hibernate & ORMs](./misc/hibernate.md)
- - [Hibernate Configuration](./misc/hibernate-config.md)
- - [Executing Statements With Hibernate](./misc/hibernate-querying.md)
- - [JUnit Testing](./java/junit-testing.md)
- - [Logging with Log4J](./java/log4j.md)
+
 
 ## Object Oriented Programming
  - [Object Oriented Programming](./java/object-oriented-programming.md)
@@ -82,6 +77,17 @@
  - [EC2](./aws/ec2.md)
  - [EBS](./aws/ebs.md)
  - [IAM & Security](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)
+ - [CodePipeline](https://docs.aws.amazon.com/codepipeline/latest/userguide/welcome.html)
+ - [CodeBuild](https://docs.aws.amazon.com/codebuild/latest/userguide/welcome.html)
+ - [Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html)
+ - [Cloud Watch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html)
+
+## DevOps
+ - [DevOps Overview](./devops/devops-overview.md)
+ - [DevOps And Agile](./devops/devops-and-agile.md)
+ - [Continuous Integration](./devops/continuous-integration.md)
+ - [Continuous Delivery](./devops/continuous-delivery.md)
+ - [Continuous Deployment](./devops/continuous-deployment.md)
 
 ## Unix / Linux
  - [Intro to Unix](./linux/intro-unix.md)
