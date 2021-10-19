@@ -1,7 +1,10 @@
 # Java Full Stack Extended 4.1 Notes
 
 ## **\*NEW\***
-
+ - [DevOps Overview](./devops/devops-overview.md)
+ - [DevOps And Agile](./devops/devops-and-agile.md)
+ - [Continuous Integration](./devops/continuous-integration.md)
+ - [Continuous Delivery and Deployment](./devops/continuous-delivery-deployment.md)
 
 ## Object Oriented Programming
  - [Object Oriented Programming](./java/object-oriented-programming.md)
@@ -86,8 +89,7 @@
  - [DevOps Overview](./devops/devops-overview.md)
  - [DevOps And Agile](./devops/devops-and-agile.md)
  - [Continuous Integration](./devops/continuous-integration.md)
- - [Continuous Delivery](./devops/continuous-delivery-deployment.md)
- - [Continuous Deployment](./devops/continuous-deployment.md)
+ - [Continuous Delivery and Deployment](./devops/continuous-delivery-deployment.md)
 
 ## Unix / Linux
  - [Intro to Unix](./linux/intro-unix.md)
