@@ -8,6 +8,9 @@ We will use the following applications for education and projects throughout the
  - [DBeaver](https://dbeaver.io/download/) - SQL database administration suite
  - [Postman](https://www.postman.com/downloads/) - API design/testing tool
  - [Git Bash](https://git-scm.com/downloads) - Git command line tool
+ - [Apache Maven](https://maven.apache.org/install.html)
+   - [Adding to PATH in Windows](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/)
+   - [Adding to PATH in OSX](https://www.architectryan.com/2012/10/02/add-to-the-path-on-mac-os-x-mountain-lion/)
 
 
 ## Environment
@@ -16,6 +19,8 @@ We will use the following software during training, which will need to be instal
 - [OpenJDK](https://adoptopenjdk.net/?variant=openjdk8&jvmVariant=hotspot) - Java Development Kit (We want version 8 with HotSpot)
 - [Apache Tomcat 8](https://tomcat.apache.org/download-80.cgi) - Webserver (We want version 8 core)
 
+## Terminal Applications
+[Terminus](https://termius.com/windows)
 
 ## Frameworks, Libraries, & Technologies
 
