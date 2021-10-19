@@ -86,7 +86,7 @@
  - [DevOps Overview](./devops/devops-overview.md)
  - [DevOps And Agile](./devops/devops-and-agile.md)
  - [Continuous Integration](./devops/continuous-integration.md)
- - [Continuous Delivery](./devops/continuous-delivery.md)
+ - [Continuous Delivery](./devops/continuous-delivery-deployment.md)
  - [Continuous Deployment](./devops/continuous-deployment.md)
 
 ## Unix / Linux
