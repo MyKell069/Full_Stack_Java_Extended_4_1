@@ -3,6 +3,7 @@
 ## **\*NEW\***
  - [AWS EC2](./aws/ec2.md)
  - [AWS S3](./aws/aws-s3.md)
+ - [Linux/Unix](./linux/unix-linux.md)
  - [Code Challenges](./misc/code-challenges.md)
 
 ## Object Oriented Programming
@@ -91,9 +92,7 @@
  - [Continuous Delivery and Deployment](./devops/continuous-delivery-deployment.md)
 
 ## Unix / Linux
- - [Intro to Unix](./linux/intro-unix.md)
- - [Unix Commands](./linux/unix-commands.md)
- - [Misc. Linux](./linux/unix-linux.md)
+ - [Linux/Unix](./linux/unix-linux.md)
 
 ## Misc.
  - [Git & GitHub](./misc/git-github.md)
