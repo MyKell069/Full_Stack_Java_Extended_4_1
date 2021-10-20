@@ -8,7 +8,7 @@ Containerization helps to ensure the application or set of processes can run rel
 
 The following diagram illustrates the structure of containers- an application in a container is isolated to just what it needs.
 
-![Imgage of Containers on overarching structure](./Containerization.png)
+![Imgage of Containers on overarching structure](./../images/Containerization.png)
 
 ## Foundations
 ### Linux
@@ -69,7 +69,7 @@ As the diagram illustrates the docker engine runs upon the platform specific sup
 
 Virtual machines and containers provide the ability to isolate processes from one another and provide some kind of virtualization, so that the processes can run in their own sandbox environment on the same host machine. However, virtual machines and containers do so in differing ways. 
 
-![Application Diagram- Traditional, VM, Containerized](./images/ContainerVMHost.png)
+![Application Diagram- Traditional, VM, Containerized](./../images/ContainerVMHost.png)
 
 **Note**, *virtualization* means to provide a virtualized view of some set of resources. For example, a process may have a virtualized view of a file system where it believes that it is manipulating the root of the system. Meanwhile, the directory that the process manipulates is many layers away from the root. 
 
