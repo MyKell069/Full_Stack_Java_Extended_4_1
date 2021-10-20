@@ -1,3 +1,5 @@
+# QC Questions on SDLC and DevOps
+
  - What are the steps in the software development lifecycle? 
  - What is the difference between Waterfall and Agile methodologies? Explain the benefits and drawbacks of each 
  - List some of the principles declared in the Agile manifesto 
