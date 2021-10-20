@@ -7,7 +7,7 @@ Amazon S3 is an object storage system which means the data is stored as individu
 * Each individual object is put into a **bucket** and you connect to Amazon S3 using a URL.
 * The URL will have the name of your object and the name of your bucket. The bucket is just the container in which you put your objects.
 * You use what's called a REST API to connect to S3 using a URL.
-* Your browser does a HTTP PUT request and it puts the objects in the bucket.
+* Your browser does an HTTP PUT request and it puts the objects in the bucket.
 
 <img src="./images/s3-pic.png" width="400">
 
