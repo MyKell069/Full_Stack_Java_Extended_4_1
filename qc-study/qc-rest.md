@@ -1,6 +1,6 @@
 # QC Questions on REST
-
-- What are the REST Constraints?
+ - What is REST?
+ - What are the REST Constraints?
  - Marshalling and Unmarshalling
  - What is HTTP?
  - What are the HTTP verbs/methods?
