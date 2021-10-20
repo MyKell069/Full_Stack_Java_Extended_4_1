@@ -5,6 +5,7 @@
  - [DevOps And Agile](./devops/devops-and-agile.md)
  - [Continuous Integration](./devops/continuous-integration.md)
  - [Continuous Delivery and Deployment](./devops/continuous-delivery-deployment.md)
+ - [Code Challenges](./misc/code-challenges.md)
 
 ## Object Oriented Programming
  - [Object Oriented Programming](./java/object-oriented-programming.md)
