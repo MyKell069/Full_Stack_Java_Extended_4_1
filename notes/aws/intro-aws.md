@@ -37,7 +37,7 @@ AWS offers you a **pay-as-you-go** approach for pricing for over 160 cloud servi
 
 * You can also use [AWS Billing and Cost Management](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.html)
 
-<img src="./images/payment.png" width="500">
+<img src="./../images/payment.png" width="500">
 
 ### 3 Models of Cloud Computing
 
@@ -51,7 +51,7 @@ Platform as a Service (PaaS) allows organizations to build, run and manage appli
 #### Software as a Service (SaaS)
 Software as a service (SaaS) replaces the traditional on-device software with software that is licensed on a subscription basis. It is centrally hosted in the cloud. A good example is Salesforce.com.
 
-<img src="./images/cloud-service-models.png" width="500">
+<img src="./../images/cloud-service-models.png" width="500">
 
 ### Other Major Cloud Providers
 * [Microsoft Azure](https://azure.microsoft.com/en-us/)
