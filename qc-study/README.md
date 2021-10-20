@@ -5,6 +5,7 @@ These files are full of questions you are likely to be asked as part of QC. You 
 
 ## Newest Topics Since Last QC:
  - [Hibernate/ORM](./qc-hibernate.md)
+ - [Junit](./qc-junit.md)
  - [REST](./qc-rest.md)
  - [HTTP](./qc-http.md)
  - [HTML](./qc-html.md)
