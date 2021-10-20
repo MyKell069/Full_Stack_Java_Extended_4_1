@@ -11,6 +11,6 @@ Brainstorm and psuedo-code your solution. DON'T SKIP THIS STEP. Type a handful o
 Now we are ready to write code. Take the solution you devised and begin producing it. Take it one step at a time, and if you find you must deviate from your initial plan, write more comments for your imaginary audience.
 
 ## So, in closing...
-Practicing problem solving: write your own solution, seek assistance and hints but avoid being given the answer.
-Practicing syntax/fundementals: implement someone else's solution, practice by coding.
+Practicing problem solving: write your own solution, seek assistance and hints but avoid being given the answer.  
+Practicing syntax/fundementals: implement someone else's solution, practice by coding.  
 Real world code challenge(interview, panel, QC, or training): write your own solution, no notes or assistance, only official documentation if allowed.
