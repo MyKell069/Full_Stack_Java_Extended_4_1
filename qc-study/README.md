@@ -8,6 +8,7 @@ These files are full of questions you are likely to be asked as part of QC. You 
  - [Junit](./qc-junit.md)
  - [Docker](./qc-docker.md)
  - [SDLC/DevOps](./qc-sdlc-devops.md)
+ - [AWS](./qc-aws.md)
  - [REST](./qc-rest.md)
  - [HTTP](./qc-http.md)
  - [HTML](./qc-html.md)
