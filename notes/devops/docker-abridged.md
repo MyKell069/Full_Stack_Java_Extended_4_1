@@ -1,7 +1,7 @@
 # Docker Abridged Notes
 The official notes on Docker are very extensive, so we will be building our own slimmed down version of the notes here. We want to keep the QC question bank in mind as we go through the docker lecture and put the most pertinent information here.
 
-[QC Questions:](./../qc-study/qc-docker.md)
+[QC Questions:](./../../qc-study/qc-docker.md)
  - What is Docker?
  - What is a container?
  - How is a container different from a virtual machine?
