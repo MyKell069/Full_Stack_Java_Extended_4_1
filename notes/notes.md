@@ -1,10 +1,8 @@
 # Java Full Stack Extended 4.1 Notes
 
 ## **\*NEW\***
- - [DevOps Overview](./devops/devops-overview.md)
- - [DevOps And Agile](./devops/devops-and-agile.md)
- - [Continuous Integration](./devops/continuous-integration.md)
- - [Continuous Delivery and Deployment](./devops/continuous-delivery-deployment.md)
+ - [AWS EC2](./aws/ec2.md)
+ - [AWS S3](./aws/aws-s3.md)
  - [Code Challenges](./misc/code-challenges.md)
 
 ## Object Oriented Programming
