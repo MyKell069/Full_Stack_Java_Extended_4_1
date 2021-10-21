@@ -9,7 +9,7 @@
    - [Docker Containers](./devops/docker-containers.md)
    - [Docker Workflow](./devops/docker-workflow.md)
    - [Docker Cheatsheet](./devops/docker-cheatsheet.md)
-   - [Code Challenges](./misc/code-challenges.md)
+ - [Code Challenges](./misc/code-challenges.md)
 
 ## Object Oriented Programming
  - [Object Oriented Programming](./java/object-oriented-programming.md)
