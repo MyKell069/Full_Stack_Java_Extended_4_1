@@ -4,11 +4,12 @@
  - [AWS EC2](./aws/ec2.md)
  - [AWS S3](./aws/aws-s3.md)
  - [Linux/Unix](./linux/unix-linux.md)
- - [Docker](./devops/docker.md)
- - [Docker Containers](./devops/docker-containers.md)
- - [Docker Workflow](./devops/docker-workflow.md)
- - [Docker Cheatsheet](./devops/docker-cheatsheet.md)
- - [Code Challenges](./misc/code-challenges.md)
+ - [Docker Abridged](./devops/docker-abridged.md)
+   - [Docker](./devops/docker.md)
+   - [Docker Containers](./devops/docker-containers.md)
+   - [Docker Workflow](./devops/docker-workflow.md)
+   - [Docker Cheatsheet](./devops/docker-cheatsheet.md)
+   - [Code Challenges](./misc/code-challenges.md)
 
 ## Object Oriented Programming
  - [Object Oriented Programming](./java/object-oriented-programming.md)
