@@ -3,13 +3,11 @@ These files are full of questions you are likely to be asked as part of QC. You 
 
  - [PDF - "How to Do Well in QC"](./how-to-do-well-in-qc.pdf)
 
-Keep the following in mind for QCs:
-  
-**STATIC IS NOT FINAL**  
-  
-We must be exact and precise with terminology. This is one of the areas we struggle with most.  
+### Keep the following in mind for QCs:
+ - **STATIC IS NOT FINAL**  
+ - We must be exact and precise with terminology. This is one of the areas we struggle with most.  
 
-#### Practice Strategies: 
+### Practice Strategies: 
  - Study the question banks. Formulate your own answers to the questions. Share and discuss your answers with your peers, and practice them in a group setting. Hearing other associates answer questions can shed light on your own areas for improvement. Conversely, perhaps you can offer some advice to your peers. 
  - Talk in a mirror. Answer the questions out loud so you can both see and hear yourself as you do. Use a mirror or a webcam or something. Record yourself if you must. I know this feels silly, but it will totally help you improve your soft skills.
  - When attending lecture, find a way to take useful notes. Not just for looking up later, but for building something that sticks in your brain. I suggest the following, which is a method that works for me:
@@ -22,7 +20,7 @@ We must be exact and precise with terminology. This is one of the areas we strug
    - We want to be able to tell ourselves a story that completely explains the subject matter. The important points are what we want to understand and tell QC, but the rest of the narrative we create is to help it make sense and stick in our minds.
    - Keep in mind: This "story", this narrative we develop is not a metaphor or fiction. It's supporting thoughts and ideas that help us understand the bolded points.
 
-#### QC Strategies:
+### QC Strategies:
  - Start with a deep breath, especially if you find yourself panicing and unable to recall info you are certain you know. In through the nose, out through the mouth. Practice doing this before you get to QC so it doesn't seem completely unnatural. This will short-circuit your brain's flight or fight response to panic stimuli.
  - Start strong and set a confident tone. After the deep breath launch into your answer confidently. Your brain will subconsciously attempt to mantain the tone you have set, one of strength and confidence.
  - Avoid "I think", "Maybe", "I believe", and other "waffling", that is unconfident expectation lowering. This can be a subconscious attempt to soften judgement about your answer. It won't work. Appearing unsure will not increase your correctness, and will detract from your soft skills. This is easier said than done, the waffling is natural and subconscious. The previous tip about setting a confident tone will help your brain subconsciously avoid these phrases.
