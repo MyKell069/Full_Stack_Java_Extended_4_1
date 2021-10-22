@@ -13,7 +13,7 @@ These files are full of questions you are likely to be asked as part of QC. You 
  - When attending lecture, find a way to take useful notes. Not just for looking up later, but for building something that sticks in your brain. I suggest the following, which is a method that works for me:
    - Write brief sentences about important points, and leave ample space between them. Ex: "Hibernate is an ORM, an object relational mapper, which translates between incompatible representations of data in object-oriented memory and relational database schema."
    - Bold these points so they stick out.
-   - Come back to these brief but descriptive points and fill in the details between them. e are building a narrative, a sort of story explaining the bolded points.
+   - Come back to these brief but descriptive points and fill in the details between them. We are building a narrative, a sort of story explaining the bolded points.
    - Re-order the points as needed to complete the narrative.
    - The goal is to have a set of notes which contain all of the important points from the lecture, but the detailed narrative between and surrounding them helps make these points make sense to you.
    - The narrative you build is designed to explain to yourself or another audience all of the minutae needed to support and fully understand the important points from earlier.
