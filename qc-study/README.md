@@ -4,6 +4,7 @@ These files are full of questions you are likely to be asked as part of QC. You 
  - [PDF - "How to Do Well in QC"](./how-to-do-well-in-qc.pdf)
 
 Keep the following in mind for QCs:
+  
 **STATIC IS NOT FINAL**  
   
 We must be exact and precise with terminology. This is one of the areas we struggle with most.  
