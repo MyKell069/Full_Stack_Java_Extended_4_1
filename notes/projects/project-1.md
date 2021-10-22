@@ -24,11 +24,11 @@ This project will be done in teams of 2-3 members that will be assigned when we 
 6. Abstract all JDBC away with Hibernate
 7. Documentation (all classes and methods have adequate Javadoc comments)
 8. All Exceptions are caught and logged to a file
-9. 80%+ Unit test line coverage for service-layer methods(Test as much as possible, ask trainer if unsure)
 
 ### Bonus Features
 1. DevOps CI/CD pipeline to build and deploy project
-2. Advanced UI Framework (Angular or React)
+2. 80%+ Unit test line coverage for service-layer methods(Test as much as possible, ask trainer if unsure)
+3. Advanced UI Framework (Angular or React)
 
 
 ## Airline Ticketing Kiosk App
