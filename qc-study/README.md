@@ -27,16 +27,16 @@ These files are full of questions you are likely to be asked as part of QC. You 
  - If you think you know the answer but are having trouble recalling the details, start walking your way to the answer. That is, logically begin assembling a foundation from which to make educated guesses. Look for hints in the question: What domain is the QC person asking about? Did they use or avoid using a specific word or phrase? Does this question come on the heels of a question that someone else got wrong? 
 
 ## Newest Topics Since Last QC:
- - **[Hibernate/ORM](./qc-hibernate.md)**
+ - **[Hibernate/ORM](./qc-hibernate.md)** \*
  - [Junit](./qc-junit.md)
  - [Docker](./qc-docker.md)
  - [SDLC/DevOps](./qc-sdlc-devops.md)
  - [AWS](./qc-aws.md)
- - **[REST](./qc-rest.md)**
+ - **[REST](./qc-rest.md)** \*
  - [HTTP](./qc-http.md)
  - [HTML](./qc-html.md)
  - [CSS](./qc-css.md)
- - **[JavaScript](./qc-javascript.md)**
+ - **[JavaScript](./qc-javascript.md)** \*
  - [AJAX](./qc-ajax.md)
 
 
