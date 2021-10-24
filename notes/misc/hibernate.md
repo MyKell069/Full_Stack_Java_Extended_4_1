@@ -109,7 +109,7 @@ The three Object States in Hibernate are:
 
 An object of a persistent class (a class mapped to a relational database table) can be in one of three different states. These states are defined in relation to a **persistence context** (Session object). 
 
-### Transisent
+### Transient
 
 * When an object is created using the `new` operator and not yet associated with a Hibernate Session, then the object state is transient.
 * It doesn't represent a row in the database. 
